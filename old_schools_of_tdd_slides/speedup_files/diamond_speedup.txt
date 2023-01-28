@@ -1,0 +1,51 @@
+'use strict';
+
+describe('Diamond', () => {
+  it('should print the whole diamond', () => {
+    expect(diamond("C")).toEqual(
+    "..A..\n" +
+    ".B.B.\n" +
+    "C...C\n" +
+    ".B.B.\n" +
+    "..A.."   
+    );
+  });
+});
+
+
+const diamond = () => 
+    "..A..\n" +
+    ".B.B.\n" +
+    "C...C\n" +
+    ".B.B.\n" +
+    "..A..";
+ 
+
+const diamond = () => 
+   ["..A..",
+    ".B.B.",
+    "C...C",
+    ".B.B.",
+    "..A.."].join("\n");
+
+describe("middleLine", () => {
+  it('should print a middle Line for a letter', () => {
+    expect(middleLine("C")).toEqual("C...C");
+  });  
+});
+
+describe("spaces", () => {
+  it('should print a given number of spaces', () => {
+    expect(spaces(3)).toEqual("...");
+  });  
+});
+
+
+const middleLine = letter => "C...C";
+const middleLine = letter => letter + "..." + letter;
+
+const spaces = n => "...";
+const spaces = n => [".", ".", "."].join("");
+const spaces = n => Array.from({length: n},  _ => ".").join("");
+const middleLine = letter => letter + spaces(3) + letter;
+

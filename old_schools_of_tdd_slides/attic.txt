@@ -1,0 +1,48 @@
+Universal Architecture
+* http://www.fullstackradio.com/38 
+* https://www.meetup.com/de-DE/Software-Craftsmanship-Zurich/events/255052908/
+
+* Sind es Schulen?
+Jason Gorman: http://codemanship.co.uk/parlezuml/blog/?postid=987
+Kritik an Gorman: https://groups.google.com/forum/#!topic/growing-object-oriented-software/dOmOIafFDcI
+ - auch Classic in London
+
+ Thema: 
+ * gar keine Schulen, weil ... Triangulation in London, Mocking/Stubbing in Chicago
+ 
+ Raushalten: IO / GUI / Pyramid / ATDD / BDD
+---
+
+# Does TDD really lead to good design?
+* Sandro Mancuso: <br/>
+https://codurance.com/2015/05/12/does-tdd-lead-to-good-design/
+
+---
+
+# TDD-Steps?
+
+---
+
+## Red > Green > Refactoring
+
+---
+
+# Think Step
+
+* JB. Rainsberger
+* James Shore
+* != BDUF
+
+Note:
+
+Referenzen: Rainsberger, Sandro: Nicht automatisch, Shore, Martin
+Es ist nicht verboten das Hirn einzusetzen
+Brain-On-Mode
+
+
+---
+
+## Think > Red > Green > Refactoring
+
+
+---
