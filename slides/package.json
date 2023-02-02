@@ -1,0 +1,17 @@
+{
+  "name": "schools_of_tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "reveal-md 2023-03-codingdojo-javaland.md -w --template reveal.html --theme sky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decktape": "^3.2.0",
+    "mermaid": "^8.0.0",
+    "reveal-md": "^2.4.0"
+  }
+}
