@@ -1,0 +1,75 @@
+- Vorbereiten Buildingblocks
+-- On demand in den slides?
+-- Flipchart+Handhout?
+--
+
+ !!!Mars Rover Kata!!!
+
+----
+Intro 10 min.
+- Slides
+
+----
+"Chicago",
+- Intro (1 Slide)
+
+- 5-10 min "coding" (Marco und Sebastian im Pair (Vorlage für die Teilnehmer))
+  - hier: Einführung TDD mit kompass rechts-drehen?
+  - Theorie (Teil der Praxis)
+    - kleine Bausteine...
+    - zum grossen ganzen zusammen bauen
+
+- Selber machen (25 min?)
+
+----
+Pro Iteration:
+- One pager / slides
+- Vorführung
+- Selber machen
+
+----
+Slides:
+- Chicago variante? - classic vs modern
+- weitere: verschiedene Schulen?
+
+"modern Chicago"
+- Im Rover command String 'R' verarbeiten, kompass turn right nutzen, stub für kompass
+- Stubs vs. Mock
+- Subst nutzen
+
+---- Dynamisch?
+
+"London", 
+- Im Rover command String 'R' verarbeiten, mock für kompass turn right, (mock: d.h. verify, dass kompass richtig aufgerufen wurde)
+- Outside in vs inside out
+  - Wir haben noch keinen Kompass...
+- Double loop (outside in)
+  -
+
+"Munich",
+- Fake it (großer Test aussen herum) mit Backward calculation pattern
+- Rover mit langem command ("01S","FFLFRB","02N") (obacht große komplexität im falle des rovers)
+- impl. turn right, N -> turn right -> O, O -> turn right -> S: Test: mit RR
+
+"St. Pauli", 
+Munich + Triangulation Pattern (warten bis es ein test fordert, bis man um die echte impl. nicht mehr herumkommt)
+- Rover mit langem command ("01S","FFLFRB","02N")
+- impl. turn right, N -> turn right -> O, O -> turn right -> S
+- impl. turn right, N -> turn right -> O, O -> turn right -> S: Test: kleine nicht produktive schritte im code "dreckig"
+
+"Hamburg"
+Red Green Refactor -> Think Red Green Refactor
+Think: Design? Welche Klassen, welche Funktionen. Problem zerlegen
+  Kugel? Grid?
+(Wir gehen auch mal ans Flipchart und malen bisschen)
+
+"as if you mean it"
+Implementierung darf nur durch Refactoring aus den Tests entstehen?
+Kompass - Basisbausteine bauen
+Testcode, testcode, testcode... erst genug lernen und viele tests haben, dann durch refactoring! "echten" Code schreiben
+zur Discovery länger in Test "bleiben"
+
+
+
+----
+Abschluss 10 min.
