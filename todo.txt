@@ -1,0 +1,36 @@
+
+- St. Pauli und Hamburg vertauschen?
+
+- Code für show Bereiche vorbereiten, jeweils die Ausgangslage als branch und die "Show"-Schritte darauf aufbauend
+  - Chicago classic
+  - Chicago modern
+  - London
+  - St. Pauli
+  - Hamburg
+  - TTD as if you meant it
+
+- Slides:
+  - Überall knackige Essentials
+    - Essentials vs. Patterns & Principles bei der Übernahme?
+      -- Vereinfachen und Konsolidieren
+    - Ableiten der Buildingblocks/Terms/Principles? (nicht übertreiben, sondern am praktischen Nutzen orientieren)
+    -- On demand
+     -- in den slides nur den Begriff?
+     -- vorbereitete Flipcharts aufhängen/Whiteboard herleiten?
+     -- vorführen
+    --
+
+
+  - Überall knackige Consequences
+
+- vorbereitete Flipcharts
+  - welche brauchen wir (Terms, Building Blocks, Principles) ?
+  - Klar und einfach?
+
+- Handhout (hier gerne vollständig und mit Links)
+  - Setup: Das wichtigeste für den Termin zum nachlesen (u.a. für Menschen, die zu spät kommen)
+  - Kata (zum Nachlesen)
+  - Terms and Building blocks:
+    - welche brauchen wir?
+  - Schools (Liste aller Schulen und das wichtigste zum nach-recherchieren?)
+  -

@@ -1,9 +1,7 @@
-- Vorbereiten Buildingblocks
--- On demand in den slides?
--- Flipchart+Handhout?
---
 
- !!!Mars Rover Kata!!!
+
+
+
 
 ----
 Intro 10 min.

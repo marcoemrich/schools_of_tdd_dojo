@@ -25,8 +25,7 @@ Wer weiß welche Schule das ist?
 
 - hier werden die Besten Magier ausgebildet
 
-- anderes Bild?
-
+- anderes Bild, weil anderer Titel?
 
 ---
 
@@ -46,96 +45,276 @@ Wer weiß welche Schule das ist?
 
 ----
 <!-- .slide: data-background="images/rgf.png" data-background-size="contain" -->
-
 # TDD <!-- .element style="position: absolute; left: 650px; top: -300px" -->
 
+Note:
+
+Invented by?
+
+Invented when?
+
+30-60 Years, and nothing changed? 
+
+Well, that is why we are here
+
 ---
 
+
+<!-- .slide: data-background="images/chicago.jpg"  -->
 # Chicago!
 
+
+Note:
+
+Let us start here, first "school", without further knowledge
+
 ----
 
+<!-- .slide: data-background="images/chicago_g.jpg"  -->
 ## Essentials
+- **Inside-Out**
+- **Sociable** Tests
+- **Test Doubles** only for external dependencies
 
 ----
 
+<!-- .slide: data-background="images/chicago_g.jpg"  -->
 ## Show
 
+----
+
+<!-- .slide: data-background="images/chicago_g.jpg"  -->
+## Consequences
+- Can be fragile <!-- .element: style="color: red"-->
+- Can be slow <!-- .element: style="color: red"-->
+- Defect Localization is hard <!-- .element: style="color: red"-->
+
 ---
 
-# Schools? Schools.
+<!-- .slide: data-background="images/ma1_g.jpg"  -->
+
+# Seven schools of TDD
+
+- Chicago (classy)
+- Chicago (modern)
+- London
+- Munich
+- St.Pauli
+- Hamburg
+- TDD as if You Meant It
+
+Note:
+- Motivation
+- could be called Styles of TDD
+- ...
 
 ---
 
+<!-- .slide: data-background="images/chicago.jpg"  -->
 # modern Chicago!
 
 ----
 
+<!-- .slide: data-background="images/chicago_g.jpg"  -->
 ## Essentials
+- **Inside-Out**
+- **Solitary/Isolated Tests**
+- Many **Stubs**
+- **Mocks** only if needed
 
 ----
 
+<!-- .slide: data-background="images/chicago_g.jpg"  -->
 ## Show
 
+----
+
+<!-- .slide: data-background="images/chicago_g.jpg"  -->
+## Consequences
+<ul>
+  <li style="color: #4dff4dbd">+ ~~can be fragile~~ mostly stable</li>
+  <li style="color: #4dff4dbd">+ ~~Can be slow~~ blazing fast</li>
+  <li style="color: #4dff4dbd">+ Defect Localization is ~~hard~~ easy</li>
+  <li style="color: red">- Additional Integration Tests needed</li>
+
+</ul>
 ---
 
+<!-- .slide: data-background="images/london.jpg"  -->
 # London
 
 ----
 
+<!-- .slide: data-background="images/london_g.jpg"  -->
 ## Essentials
+- Outside-In
+- Solitary/Isolated Tests
+- Mocks for Verification
 
 ----
 
+<!-- .slide: data-background="images/london_g.jpg"  -->
 ## Show
 
+----
+
+<!-- .slide: data-background="images/london_g.jpg"  -->
+## Consequences
+- "Tell Don't Ask"-design <!-- .element:  -->
+- \+ Prevents YAGNI <!-- .element:  style="color: #4dff4dbd" -->
+- \+ On-Rails <!-- .element:  style="color: #4dff4dbd" -->
+- \+ Less refactoring <!-- .element:  style="color: #4dff4dbd" -->
+- \- Hard to refactor <!-- .element: style="color: red" -->
+- \- Mocking is hard <!-- .element: style="color: red" -->
 ---
 
+<!-- .slide: data-background="images/munich.jpg"  -->
 # Munich
 
 ----
 
+<!-- .slide: data-background="images/munich_g.jpg"  -->
 ## Essentials
+- Outside-In
+- **In-Production-Stubs/Fakes** (intermediate!)
+- Avoids Mocks
+- Refactoring-based
+- Complex Acceptance Test
 
 ----
 
+<!-- .slide: data-background="images/munich_g.jpg"  -->
 ## Show
+
+----
+
+<!-- .slide: data-background="images/munich_g.jpg"  -->
+## Consequences
+- \+ Prevents YAGNI <!-- .element: style="color: #4dff4dbd" -->
+- \+ On-Rails <!-- .element: style="color: #4dff4dbd" -->
+- \+ Avoid Mocks <!-- .element: style="color: #4dff4dbd" -->
+- \+ More Time in the Green &rarr; Lower Risk <!-- .element:  style="color: #4dff4dbd" -->
 
 ---
 
+<!-- .slide: data-background="images/stpauli.jpg"  -->
 # St. Pauli
 
 ----
 
+<!-- .slide: data-background="images/stpauli_g.jpg"  -->
 ## Essentials
+- Outside-In
+- Avoids Mocks
+- Refactoring-based
+- Triangulation &rarr; Simple/Growing Tests
 
 ----
 
+<!-- .slide: data-background="images/stpauli_g.jpg"  -->
 ## Show
+
+----
+
+<!-- .slide: data-background="images/stpauli_g.jpg"  -->
+## Consequences
 
 ---
 
+<!-- .slide: data-background="images/hamburg.jpg"  -->
 # Hamburg
 
 ----
 
+<!-- .slide: data-background="images/hamburg_g.jpg"  -->
 ## Essentials
+- Design Up Front (BDUF vs. DUF)
+- Think Before Coding
+- Analyze->Design->Code
 
 ----
 
+<!-- .slide: data-background="images/hamburg_g.jpg"  -->
 ## Show
+
+----
+
+<!-- .slide: data-background="images/hamburg_g.jpg"  -->
+## Consequences
+- ?
 
 ---
 
-# as if you meant it
+
+<!-- .slide: data-background="images/london.jpg"  -->
+
+## TDD as if <br/>You Meant It <!-- .element: style="position: absolute; top: 480px; left: -150px" -->
+
+Note:
+- also born in London?
 
 ----
 
+<!-- .slide: data-background="images/london_g.jpg"  -->
 ## Essentials
+- Inside-Out
+- Write Production Code in Tests as long as possible
+  <br/>&rarr; Delay Design Decisions
+- Refactor to Structure
+- Refactor to DSL
 
 ----
 
+<!-- .slide: data-background="images/london_g.jpg"  -->
 ## Show
+
+----
+
+<!-- .slide: data-background="images/london_g.jpg"  -->
+## Consequences
+- Minimal structure <!-- .element:  style="color: #4dff4dbd" -->
+- High Refacturability <!-- .element:  style="color: #4dff4dbd" -->
+- Feels slow to start<!-- .element:  style="color: red" -->
+
+---
+
+<!-- .slide: data-background="images/ma1_g.jpg"   -->
+
+# Best School? <!-- .element: style="position:relative; top: -200px " -->
+
+Note:
+wer hat gewonnen?
+
+----
+
+> It depends™
+
+&mdash; any Consultant, ever <!-- .element: class="fragment" -->
+
+Note:
+- Bild?
+
+----
+
+<!-- .slide: data-background="images/tools.jpg"   -->
+
+## Choose
+
+## Best Tool
+
+## for the job
+
+---
+
+# THX
+
+## Feedback
+
+@MarcoEmrich
+@srose
+
+Note:
+- Bild?
 
 ---
 
@@ -225,11 +404,3 @@ Wer weiß welche Schule das ist?
 
 </div>
 
----
-
-# THX
-
-## Feedback
-
-@MarcoEmrich
-@srose
