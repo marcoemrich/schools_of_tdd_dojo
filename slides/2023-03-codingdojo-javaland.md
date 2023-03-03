@@ -13,7 +13,7 @@ revealOptions:
 
 # Coding Dojo
 
-<h2 style="text-transform: none;">Die 7 Schulen<br/> der Testgetriebenen Entwicklung</h2>
+<h1 style="text-transform: none;">7 Schools<br/> of TDD</h1>
 
 <p style="position: absolute; top: 530px; right: -145px; color: #ccc; text-transform: none; text-align: right" class="handles">
   @MarcoEmrich - @srose
@@ -101,7 +101,7 @@ Let us start here, first "school", without further knowledge
 
 <!-- .slide: data-background="images/ma1_g.jpg"  -->
 
-# Seven schools of TDD
+## Seven schools of TDD
 
 - Chicago (classy)
 - Chicago (modern)
