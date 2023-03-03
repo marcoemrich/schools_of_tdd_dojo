@@ -142,7 +142,7 @@ Note:
 
 # modern Chicago!
 
------
+----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
 
