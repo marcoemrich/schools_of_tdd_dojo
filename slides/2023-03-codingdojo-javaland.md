@@ -35,13 +35,13 @@ Wer weiß welche Schule das ist?
 
 # Welcome!
 
----
+----
 
 <!-- .slide: data-background="images/ma1_g.jpg"  -->
 
 # Coding Dojo
 
----
+----
 
 <!-- .slide: data-background="images/rover.jpg"  -->
 
@@ -51,7 +51,7 @@ Wer weiß welche Schule das ist?
 
 # Mars Rover
 
----
+----
 
 <img src="images/rover_graph.png" style="height: 400px" />
 
@@ -59,11 +59,11 @@ Wer weiß welche Schule das ist?
 - **Commands:** "FLFF"
 - **End:** 0,3 W
 
----
+----
 
 <!-- .slide: data-background="images/pair.png"  -->
 
----
+----
 
 <!-- .slide: data-background="images/rgf.png" data-background-size="contain" -->
 
@@ -89,7 +89,7 @@ Note:
 
 Let us start here, first "school", without further knowledge
 
----
+----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
 
@@ -99,13 +99,13 @@ Let us start here, first "school", without further knowledge
 - **Sociable** Tests
 - **Test Doubles** only for external dependencies
 
----
+----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
 
 ## Show
 
----
+----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
 
@@ -127,7 +127,7 @@ Let us start here, first "school", without further knowledge
 - Munich
 - St.Pauli
 - Hamburg
-- TDD as if You Meant It
+- TDD As If You Meant It
 - _more..._
 
 Note:
@@ -142,7 +142,7 @@ Note:
 
 # modern Chicago!
 
----
+-----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
 
@@ -153,13 +153,13 @@ Note:
 - Many **Stubs**
 - **Mocks** only if needed
 
----
+----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
 
 ## Show
 
----
+----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
 
@@ -170,14 +170,15 @@ Note:
   <li style="color: #4dff4dbd">+ ~~Can be slow~~ blazing fast</li>
   <li style="color: #4dff4dbd">+ Defect Localization is ~~hard~~ easy</li>
   <li style="color: red">- Additional Integration Tests needed</li>
+</ul>
 
-## </ul>
+---
 
 <!-- .slide: data-background="images/london.jpg"  -->
 
 # London
 
----
+----
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
@@ -187,13 +188,13 @@ Note:
 - Solitary/Isolated Tests
 - Mocks for Verification
 
----
+----
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
 ## Show
 
----
+----
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
@@ -212,7 +213,7 @@ Note:
 
 # Munich
 
----
+----
 
 <!-- .slide: data-background="images/munich_g.jpg"  -->
 
@@ -224,13 +225,13 @@ Note:
 - Refactoring-based
 - Complex Acceptance Test
 
----
+----
 
 <!-- .slide: data-background="images/munich_g.jpg"  -->
 
 ## Show
 
----
+----
 
 <!-- .slide: data-background="images/munich_g.jpg"  -->
 
@@ -247,7 +248,7 @@ Note:
 
 # St. Pauli
 
----
+----
 
 <!-- .slide: data-background="images/stpauli_g.jpg"  -->
 
@@ -258,13 +259,13 @@ Note:
 - Refactoring-based
 - Triangulation &rarr; Simple/Growing Tests
 
----
+----
 
 <!-- .slide: data-background="images/stpauli_g.jpg"  -->
 
 ## Show
 
----
+----
 
 <!-- .slide: data-background="images/stpauli_g.jpg"  -->
 
@@ -276,7 +277,7 @@ Note:
 
 # Hamburg
 
----
+----
 
 <!-- .slide: data-background="images/hamburg_g.jpg"  -->
 
@@ -286,13 +287,13 @@ Note:
 - Think Before Coding
 - Analyze->Design->Code
 
----
+----
 
 <!-- .slide: data-background="images/hamburg_g.jpg"  -->
 
 ## Show
 
----
+----
 
 <!-- .slide: data-background="images/hamburg_g.jpg"  -->
 
@@ -310,7 +311,7 @@ Note:
 
 - also born in London?
 
----
+----
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
@@ -322,13 +323,13 @@ Note:
 - Refactor to Structure
 - Refactor to DSL
 
----
+----
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
 ## Show
 
----
+----
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
@@ -347,7 +348,7 @@ Note:
 Note:
 wer hat gewonnen?
 
----
+----
 
 > It depends™
 
@@ -357,7 +358,7 @@ Note:
 
 - Bild?
 
----
+----
 
 <!-- .slide: data-background="images/tools.jpg"   -->
 
@@ -380,7 +381,7 @@ Note:
 
 - Bild?
 
----
+----
 
 ## References: General
 
@@ -391,7 +392,7 @@ Note:
 - [A Brief History of Mock Objects](http://www.mockobjects.com/2009/09/brief-history-of-mock-objects.html)
 - [Book ATDD by Markus Gärtner](https://www.goodreads.com/book/show/13705173-atdd-by-example?from_search=true&from_srp=true&qid=uwc21eDQay&rank=1)
 
----
+----
 
 ## References: Chicago
 
@@ -400,14 +401,14 @@ Note:
 - [Justin Seals: Detroit school TDD](https://github.com/testdouble/contributing-tests/wiki/Detroit-school-TDD)
 - Book: Test-Driven Development by Kent Beck
 
----
+----
 
 ## References: London
 
 - [Emily Bache: Double-Loop TDD](http://coding-is-like-cooking.info/2013/04/outside-in-development-with-double-loop-tdd/)
 - Book: Growing Object Oriented Software Guided by Tests by Steve Freeman & Nat Price
 
----
+----
 
 ## References: Munich
 
@@ -417,13 +418,13 @@ Note:
 
 <img src="images/david_screencasts.png" height="350"/>
 
----
+----
 
 ## References: St. Pauli
 
 - [St. Pauli school of TDD](https://www.tddstpau.li/)
 
----
+----
 
 ## References: Hamburg
 
@@ -431,18 +432,14 @@ Note:
 - [Hamburg Style TDD Diamond Kata](https://ralfw.de/hamburg-style-tdd-diamond-kata/)
 - [Hamburg Style TDD Banking Kata](https://ralfw.de/hamburg-style-tdd-bank-kata/)
 
----
+----
 
 ## References: TDDaiYMI
 
 - [TDD as if You Meant It](https://www.infoq.com/presentations/TDD-as-if-You-Meant-It/)
 - [TDD as if You Meant It - My turn!](https://melanieburns.net/blog/2019/12/tdd-as-if-you-meant-it-my-turn)
 
----
-
-<!-- .slide: data-background="images/qr_xpdd.png"   -->
-
----
+----
 
 ### Image Credits
 
