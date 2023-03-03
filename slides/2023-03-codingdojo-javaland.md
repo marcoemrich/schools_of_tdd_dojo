@@ -31,19 +31,37 @@ Wer weiß welche Schule das ist?
 
 ---
 
+<!-- .slide: data-background="images/heart.jpg" data-background-size="contain" -->
+
 # Welcome!
 
 ---
+
+<!-- .slide: data-background="images/ma1_g.jpg"  -->
 
 # Coding Dojo
 
 ---
 
-# Code Kata
+<!-- .slide: data-background="images/rover.jpg"  -->
+
+# Coding Kata
+
+<br /><br /><br /><br /><br /><br /><br />
+
+# Mars Rover
 
 ---
 
-# Pair Programming
+<img src="images/rover_graph.png" style="height: 400px" />
+
+- **Start:** 2,2 N
+- **Commands:** "FLFF"
+- **End:** 0,3 W
+
+---
+
+<!-- .slide: data-background="images/pair.png"  -->
 
 ---
 
@@ -103,13 +121,14 @@ Let us start here, first "school", without further knowledge
 
 ## Seven schools of TDD
 
-- Chicago (classy)
+- Chicago (classic)
 - Chicago (modern)
 - London
 - Munich
 - St.Pauli
 - Hamburg
 - TDD as if You Meant It
+- _more..._
 
 Note:
 
