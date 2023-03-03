@@ -11,9 +11,11 @@ revealOptions:
 
 <!-- .slide: data-background="images/schools2.jpg"   -->
 
-<h2 style="position: absolute; top: 370px; right: -150px; color: #ccc; text-transform: none;">Coding Dojo: Die sieben Schulen der TDD</h2>
+# Coding Dojo
 
-<p style="position: absolute; top: 445px; right: -145px; color: #ccc; text-transform: none; text-align: right" class="handles">
+<h2 style="text-transform: none;">Die 7 Schulen<br/> der Testgetriebenen Entwicklung</h2>
+
+<p style="position: absolute; top: 530px; right: -145px; color: #ccc; text-transform: none; text-align: right" class="handles">
   @MarcoEmrich - @srose
 </p>
 <img src="images/cc.png" class="borderless" style="position: absolute; top: 600px; right: -145px;  width: 350px;" />
@@ -31,20 +33,22 @@ Wer weiß welche Schule das ist?
 
 # Welcome!
 
-----
+---
 
 # Coding Dojo
 
-----
+---
 
 # Code Kata
 
-----
+---
 
 # Pair Programming
 
-----
+---
+
 <!-- .slide: data-background="images/rgf.png" data-background-size="contain" -->
+
 # TDD <!-- .element style="position: absolute; left: 650px; top: -300px" -->
 
 Note:
@@ -53,38 +57,42 @@ Invented by?
 
 Invented when?
 
-30-60 Years, and nothing changed? 
+30-60 Years, and nothing changed?
 
 Well, that is why we are here
 
 ---
 
-
 <!-- .slide: data-background="images/chicago.jpg"  -->
-# Chicago!
 
+# Chicago!
 
 Note:
 
 Let us start here, first "school", without further knowledge
 
-----
+---
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
+
 ## Essentials
+
 - **Inside-Out**
 - **Sociable** Tests
 - **Test Doubles** only for external dependencies
 
-----
+---
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
+
 ## Show
 
-----
+---
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
+
 ## Consequences
+
 - Can be fragile <!-- .element: style="color: red"-->
 - Can be slow <!-- .element: style="color: red"-->
 - Defect Localization is hard <!-- .element: style="color: red"-->
@@ -104,6 +112,7 @@ Let us start here, first "school", without further knowledge
 - TDD as if You Meant It
 
 Note:
+
 - Motivation
 - could be called Styles of TDD
 - ...
@@ -111,85 +120,103 @@ Note:
 ---
 
 <!-- .slide: data-background="images/chicago.jpg"  -->
+
 # modern Chicago!
 
-----
+---
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
+
 ## Essentials
+
 - **Inside-Out**
 - **Solitary/Isolated Tests**
 - Many **Stubs**
 - **Mocks** only if needed
 
-----
+---
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
+
 ## Show
 
-----
+---
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
+
 ## Consequences
+
 <ul>
   <li style="color: #4dff4dbd">+ ~~can be fragile~~ mostly stable</li>
   <li style="color: #4dff4dbd">+ ~~Can be slow~~ blazing fast</li>
   <li style="color: #4dff4dbd">+ Defect Localization is ~~hard~~ easy</li>
   <li style="color: red">- Additional Integration Tests needed</li>
 
-</ul>
----
+## </ul>
 
 <!-- .slide: data-background="images/london.jpg"  -->
+
 # London
 
-----
+---
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
+
 ## Essentials
+
 - Outside-In
 - Solitary/Isolated Tests
 - Mocks for Verification
 
-----
+---
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
+
 ## Show
 
-----
+---
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
+
 ## Consequences
+
 - "Tell Don't Ask"-design <!-- .element:  -->
 - \+ Prevents YAGNI <!-- .element:  style="color: #4dff4dbd" -->
 - \+ On-Rails <!-- .element:  style="color: #4dff4dbd" -->
 - \+ Less refactoring <!-- .element:  style="color: #4dff4dbd" -->
 - \- Hard to refactor <!-- .element: style="color: red" -->
 - \- Mocking is hard <!-- .element: style="color: red" -->
+
 ---
 
 <!-- .slide: data-background="images/munich.jpg"  -->
+
 # Munich
 
-----
+---
 
 <!-- .slide: data-background="images/munich_g.jpg"  -->
+
 ## Essentials
+
 - Outside-In
 - **In-Production-Stubs/Fakes** (intermediate!)
 - Avoids Mocks
 - Refactoring-based
 - Complex Acceptance Test
 
-----
+---
 
 <!-- .slide: data-background="images/munich_g.jpg"  -->
+
 ## Show
 
-----
+---
 
 <!-- .slide: data-background="images/munich_g.jpg"  -->
+
 ## Consequences
+
 - \+ Prevents YAGNI <!-- .element: style="color: #4dff4dbd" -->
 - \+ On-Rails <!-- .element: style="color: #4dff4dbd" -->
 - \+ Avoid Mocks <!-- .element: style="color: #4dff4dbd" -->
@@ -198,80 +225,96 @@ Note:
 ---
 
 <!-- .slide: data-background="images/stpauli.jpg"  -->
+
 # St. Pauli
 
-----
+---
 
 <!-- .slide: data-background="images/stpauli_g.jpg"  -->
+
 ## Essentials
+
 - Outside-In
 - Avoids Mocks
 - Refactoring-based
 - Triangulation &rarr; Simple/Growing Tests
 
-----
+---
 
 <!-- .slide: data-background="images/stpauli_g.jpg"  -->
+
 ## Show
 
-----
+---
 
 <!-- .slide: data-background="images/stpauli_g.jpg"  -->
+
 ## Consequences
 
 ---
 
 <!-- .slide: data-background="images/hamburg.jpg"  -->
+
 # Hamburg
 
-----
+---
 
 <!-- .slide: data-background="images/hamburg_g.jpg"  -->
+
 ## Essentials
+
 - Design Up Front (BDUF vs. DUF)
 - Think Before Coding
 - Analyze->Design->Code
 
-----
+---
 
 <!-- .slide: data-background="images/hamburg_g.jpg"  -->
+
 ## Show
-
-----
-
-<!-- .slide: data-background="images/hamburg_g.jpg"  -->
-## Consequences
-- ?
 
 ---
 
+<!-- .slide: data-background="images/hamburg_g.jpg"  -->
+
+## Consequences
+
+- ?
+
+---
 
 <!-- .slide: data-background="images/london.jpg"  -->
 
 ## TDD as if <br/>You Meant It <!-- .element: style="position: absolute; top: 480px; left: -150px" -->
 
 Note:
+
 - also born in London?
 
-----
+---
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
+
 ## Essentials
+
 - Inside-Out
 - Write Production Code in Tests as long as possible
   <br/>&rarr; Delay Design Decisions
 - Refactor to Structure
 - Refactor to DSL
 
-----
+---
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
+
 ## Show
 
-----
+---
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
+
 ## Consequences
+
 - Minimal structure <!-- .element:  style="color: #4dff4dbd" -->
 - High Refacturability <!-- .element:  style="color: #4dff4dbd" -->
 - Feels slow to start<!-- .element:  style="color: red" -->
@@ -285,16 +328,17 @@ Note:
 Note:
 wer hat gewonnen?
 
-----
+---
 
 > It depends™
 
 &mdash; any Consultant, ever <!-- .element: class="fragment" -->
 
 Note:
+
 - Bild?
 
-----
+---
 
 <!-- .slide: data-background="images/tools.jpg"   -->
 
@@ -314,6 +358,7 @@ Note:
 @srose
 
 Note:
+
 - Bild?
 
 ---
@@ -327,7 +372,7 @@ Note:
 - [A Brief History of Mock Objects](http://www.mockobjects.com/2009/09/brief-history-of-mock-objects.html)
 - [Book ATDD by Markus Gärtner](https://www.goodreads.com/book/show/13705173-atdd-by-example?from_search=true&from_srp=true&qid=uwc21eDQay&rank=1)
 
-----
+---
 
 ## References: Chicago
 
@@ -336,14 +381,14 @@ Note:
 - [Justin Seals: Detroit school TDD](https://github.com/testdouble/contributing-tests/wiki/Detroit-school-TDD)
 - Book: Test-Driven Development by Kent Beck
 
-----
+---
 
 ## References: London
 
 - [Emily Bache: Double-Loop TDD](http://coding-is-like-cooking.info/2013/04/outside-in-development-with-double-loop-tdd/)
 - Book: Growing Object Oriented Software Guided by Tests by Steve Freeman & Nat Price
 
-----
+---
 
 ## References: Munich
 
@@ -353,13 +398,13 @@ Note:
 
 <img src="images/david_screencasts.png" height="350"/>
 
-----
+---
 
 ## References: St. Pauli
 
 - [St. Pauli school of TDD](https://www.tddstpau.li/)
 
-----
+---
 
 ## References: Hamburg
 
@@ -367,18 +412,18 @@ Note:
 - [Hamburg Style TDD Diamond Kata](https://ralfw.de/hamburg-style-tdd-diamond-kata/)
 - [Hamburg Style TDD Banking Kata](https://ralfw.de/hamburg-style-tdd-bank-kata/)
 
-----
+---
 
 ## References: TDDaiYMI
 
 - [TDD as if You Meant It](https://www.infoq.com/presentations/TDD-as-if-You-Meant-It/)
 - [TDD as if You Meant It - My turn!](https://melanieburns.net/blog/2019/12/tdd-as-if-you-meant-it-my-turn)
 
-----
+---
 
 <!-- .slide: data-background="images/qr_xpdd.png"   -->
 
-----
+---
 
 ### Image Credits
 
@@ -403,4 +448,3 @@ Note:
 - Backdoor by Claudio Schwarz on from Unsplah, CC0
 
 </div>
-
