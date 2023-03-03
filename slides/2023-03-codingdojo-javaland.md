@@ -145,7 +145,6 @@ Note:
 ----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
-
 ## Essentials
 
 - **Inside-Out**
@@ -184,6 +183,7 @@ Note:
 
 ## Essentials
 
+- **Motivation:** YAGNI
 - Outside-In
 - Solitary/Isolated Tests
 - Mocks for Verification
@@ -218,10 +218,9 @@ Note:
 <!-- .slide: data-background="images/munich_g.jpg"  -->
 
 ## Essentials
-
+- **Motivation**: Avoids Mocks
 - Outside-In
-- **In-Production-Stubs/Fakes** (intermediate!)
-- Avoids Mocks
+- temporary in-production Stubs/Fakes
 - Refactoring-based
 - Complex Acceptance Test
 
@@ -237,10 +236,10 @@ Note:
 
 ## Consequences
 
-- \+ Prevents YAGNI <!-- .element: style="color: #4dff4dbd" -->
-- \+ On-Rails <!-- .element: style="color: #4dff4dbd" -->
-- \+ Avoid Mocks <!-- .element: style="color: #4dff4dbd" -->
-- \+ More Time in the Green &rarr; Lower Risk <!-- .element:  style="color: #4dff4dbd" -->
+- Prevents YAGNI <!-- .element: style="color: #4dff4dbd" -->
+- Avoid Mocks <!-- .element: style="color: #4dff4dbd" -->
+- On-Rails <!-- .element: style="color: #4dff4dbd" -->
+- More Time in the Green &rarr; Lower Risk <!-- .element:  style="color: #4dff4dbd" -->
 
 ---
 
@@ -254,10 +253,11 @@ Note:
 
 ## Essentials
 
+- **Motivation:** Simple Starter-Test
 - Outside-In
 - Avoids Mocks
-- Refactoring-based
-- Triangulation &rarr; Simple/Growing Tests
+- Triangulation/Refactoring-based
+- Append Only
 
 ----
 
@@ -271,6 +271,12 @@ Note:
 
 ## Consequences
 
+- Prevents YAGNI <!-- .element: style="color: #4dff4dbd" -->
+- Avoid Mocks <!-- .element: style="color: #4dff4dbd" -->
+- Even more On-Rails <!-- .element: style="color: #4dff4dbd" -->
+- simpler than Munich for beginners <!-- .element: style="color: #4dff4dbd" -->
+- Triangulation can be slow <!-- .element: style="color: red" -->
+
 ---
 
 <!-- .slide: data-background="images/hamburg.jpg"  -->
@@ -283,8 +289,8 @@ Note:
 
 ## Essentials
 
+- **Motivation:** Think Before Coding
 - Design Up Front (BDUF vs. DUF)
-- Think Before Coding
 - Analyze->Design->Code
 
 ----
@@ -299,7 +305,9 @@ Note:
 
 ## Consequences
 
-- ?
+- Avoids "Pear-Programming" <!-- .element: style="color: #4dff4dbd" -->
+- Clear Understanding of the Business Problem <!-- .element: style="color: #4dff4dbd" -->
+- DUF can be wrong <!-- .element: style="color: red" -->
 
 ---
 
@@ -317,11 +325,11 @@ Note:
 
 ## Essentials
 
+- **Motivation:** Feedback-Driven Design
 - Inside-Out
 - Write Production Code in Tests as long as possible
   <br/>&rarr; Delay Design Decisions
 - Refactor to Structure
-- Refactor to DSL
 
 ----
 
