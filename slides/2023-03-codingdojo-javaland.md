@@ -105,6 +105,8 @@ Let us start here, first "school", without further knowledge
 
 ## Show
 
+0. Vorbereiten?
+
 ----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
@@ -158,6 +160,10 @@ Note:
 
 ## Show
 
+Note:
+- Compass
+- Turn left...
+
 ----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
@@ -193,6 +199,12 @@ Note:
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
 ## Show
+
+Note: 
+0. Vorbereitet: null
+1. AcceptanceTest
+2. Schritt: Rover, Coordinate, ... DESIGN! (hier starten beim Show? und entsprechend vorbereiten)
+3. 
 
 ----
 
@@ -230,6 +242,22 @@ Note:
 
 ## Show
 
+Note:
+- Global Acceptance Test
+- Heading faken in getHeading
+- Coordinate fakein in getPosition
+- Heading turnLeft
+- Heading mehrfach aufrufe in getHeading
+- Heading turnRight
+- Heading mehrfach aufrufe in getHeading
+- Liste von commands ersetzen mehrfachaufrufe
+- Heading + Forward (enutral)
+- execute dann anreichen um command zerlegen
+- Forward in get Position + 
+- Coordinate advance 
+- Funktionalität Processing Literale -> rausziehen
+- Unit tests
+- 
 ----
 
 <!-- .slide: data-background="images/munich_g.jpg"  -->

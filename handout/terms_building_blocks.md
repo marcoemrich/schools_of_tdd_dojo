@@ -1,5 +1,7 @@
 # Die sieben Schulen der TDD - Terms and Building Blocks
 
+In alphabetic order, because we do not know when we will need it.
+
 ## Test Double
 
 Quoted from https://martinfowler.com/bliki/TestDouble.html
@@ -14,26 +16,28 @@ Stubs provide canned answers to calls made during the test, usually not respondi
 Spies are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.
 Mocks are pre-programmed with expectations which form a specification of the calls they are expected to receive. They can throw an exception if they receive a call they don't expect and are checked during verification to ensure they got all the calls they were expecting.
 
-### Stub
+## Inside Out Strategy
 
-### Mock
+## Sociable Test
 
-### Spy
+## Solitary Test
 
+## Stub
 
-## Verification
+## Mock
 
-### Backdoor vs Frontdoor
+## Spy
 
+## Backward calculation
 
-### Frontdoor: Result vs. State
+## Outside In Strategy
 
+## Frontdoor verification: Result
 
-### Backdoor: Behaviour
+## Frontdoor verification: State
 
+## Backdoor verification: Behaviour
 
-## Sociable vs Solitary
+## Double loop Acceptance TDD (DLATDD)
 
-
-
-## Outside In vs Inside Out
+## Test driven development (TDD)

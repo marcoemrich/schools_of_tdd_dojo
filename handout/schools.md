@@ -1,7 +1,15 @@
 # Die sieben Schulen der TDD
 
-## London (classy) 
+## Chicago (classy) 
 
-## London (modern)
+## Chicago (modern)
 
-## 
+## London
+
+## Hamburg
+
+## St. Pauli
+
+## Munich
+
+## As if you meant it...
