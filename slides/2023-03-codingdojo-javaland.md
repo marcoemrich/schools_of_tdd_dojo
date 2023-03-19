@@ -293,6 +293,24 @@ Note:
 
 ## Show
 
+Note:
+- Vereinfachter Acceptance Test
+- Single command L
+- Simple return
+- Single command L different heading
+- More complex return
+- More Heading variants
+- Turn left
+- Turn right
+- ...
+- Refactor: Map of function for commandString Entry
+- Add test for LL --> "stupid" start with if condition, run method twice, ...
+- Add test for LLL ---> "stupid?" --> Refactoring
+- Refactor: run command through splitter (e.g. recursive)
+- Refactor: Split-logic in another class?
+- Validation Test for e.g. RR for Split-logic-class
+- Validation Test for e.g. LRF as acceptance test
+
 ----
 
 <!-- .slide: data-background="images/stpauli_g.jpg"  -->
@@ -327,6 +345,10 @@ Note:
 
 ## Show
 
+Note:
+- Step back design
+- Before code: design, detailed as you like
+- Implement: probably 
 ----
 
 <!-- .slide: data-background="images/hamburg_g.jpg"  -->
