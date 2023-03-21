@@ -40,6 +40,9 @@ Wer weiß welche Schule das ist?
 <!-- .slide: data-background="images/setup.jpg" data-background-size="contain" -->
 
 # Setup?
+https://github.com/srose/marsrover <!-- .element: class="fragment" style="color:white" -->
+
+mvn clean verify <!-- .element: class="fragment" style="color:white" -->
 
 ----
 
@@ -111,15 +114,16 @@ Let us start here, first "school", without further knowledge
 
 ## Show
 
+Note: 
 0. Branch: chicago_classic_start (to actually start)
    1. Next: Unit/UnitTest: minimal structure of a Heading and Test
-   2. Next: make it compile, start implementing turn left
+   2. Next: make it compile, start implementing turn right
 1. Branch: chicago_classic_iter_I (have done left, right on Heading)
-   1. Next: Unit Coordinate, CoordinateTest
-   2. Next: Build move forward
-2. Branch: chicago_classic_iter_II (have Coordinate, move forward)
-   1. Next: All ingredients for the rover? Or do we need a CommandTranslator?
-   2. Rover using Heading, Coordinate to execute commands?
+   1. Next: Coordinate, etc. all the pieces (NOT TODAY)
+   2. Next: Rover with using turn left, turn right from heading
+2. Branch: chicago_classic_iter_II (have rover with testing)
+   1. Next: Move forward?
+   2. ?
 ----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
@@ -173,12 +177,17 @@ Note:
 
 ## Show
 
-0. Branch: chicago_modern_start (have done left, right on Heading)
-   1. MUST HAVE Coordinate?
-   2. Next: Build Rover with mock the dependency to heading executing commands?
-1. Branch: chicago_modern_iter_I (have done rover executing commands using heading)
-   1. Next: fillin position using Coordinate?
-   2.
+Note:
+
+0. Branch: chicago_modern_start (same as chicago iter II before)
+   1. Show Problem!
+   2. Refactor to isolate test, 2nd constructor
+1. Branch: chicago_modern_iter_I (have done one refactoring)
+   2. Next: Insert Mock for Heading
+2. Branch: chicago_modern_iter_II (have done mocking)
+   1. Next: fill in position using Coordinate
+----
+Rover nutzt Stub von 
 ----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
@@ -221,8 +230,19 @@ Note:
     2. Next: Rover mit Schnittstelle für command
     3. Schritt: Rover, Coordinate, ... DESIGN!
 1. Branch: london_iter_I (have the working AcceptanceTest, just fake impl.)
+    1. Test is not important and allowed to be red during our journey
+    2. Next: Simple test for Rover: eg. init
+    3. Next: Simple test for Rover command: eg. command execution?
+2. Branch: london_iter_II (hava a simple init test and some new test for command)
+    1. Next: Introduce CommandTranslator
+    2. Next: Make sure translate is executed 
+3. Branch: london_iter_III (command translator, test that translate is executed)
+    1. Next: make command.translate work with the rover
+    2. Next: introduce interface
+    3. Next: Test for commandTranslate single command
+    3. Next: Test for commandTranslate multiple command
+4. Branch: london_iter_IV (command translate, ...)
     1. Next: ?
-2. Branch: london_iter_II
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
@@ -259,22 +279,21 @@ Note:
 ## Show
 
 Note:
+
 0. Branch: munich_start (have an AcceptanceTest, nothing else)
     1. Next: Acceptance Test grün
 1. Branch: munich_iter_I (have the working AcceptanceTest, just fake impl.)
-    1. Next: TODO decide which steps
-       - Heading turnLeft
-       - Heading mehrfach aufrufe in getHeading
-       - Heading turnRight
-       - Heading mehrfach aufrufe in getHeading
-       - Liste von commands ersetzen mehrfachaufrufe
-       - Heading + Forward (enutral)
+    1. Next: Heading turnLeft, Heading turnRight
+       Next: In Rover Heading mehrfach aufrufe in getHeading
+2. Branch: munich_iter_II (Heading turnLeft, turnRight mehrfach aufrufe in getHeading):
+    1. Next: Liste von commands ersetzen mehrfachaufrufe mit commandMap
+3. Branch: munich_iter_III (Mehrfachaufrufe ersetzt, commandMap)
+    2. Next: Heading + Forward (enutral)
        - execute dann anreichen um command zerlegen
        - Forward in get Position +
        - Coordinate advance
        - Funktionalität Processing Literale -> rausziehen
-       - Unit tests
-2. Branch: munich_iter_II
+       - Jeweils Unit tests?
 
 ----
 
@@ -313,25 +332,24 @@ Note:
 
 Note:
 1. Branch: st_pauli_start (have a simple green AcceptanceTest, gree)
-   1. Next: Add another test
-2. Branch: st_pauli_iter_I (have two acceptance tests)
-   1. Next:
-- Vereinfachter Acceptance Test
-- Single command L
-- Simple return
-- Single command L different heading
-- More complex return
-- More Heading variants
-- Turn left
-- Turn right
-- ...
-- Refactor: Map of function for commandString Entry
-- Add test for LL --> "stupid" start with if condition, run method twice, ...
-- Add test for LLL ---> "stupid?" --> Refactoring
-- Refactor: run command through splitter (e.g. recursive)
-- Refactor: Split-logic in another class?
-- Validation Test for e.g. RR for Split-logic-class
-- Validation Test for e.g. LRF as acceptance test
+2. Branch: st_pauli_iter_I (nothing changed)
+   1. Next: Add another Test and force getHeading to change
+   2. Next: Make getHeading somehow work
+   3. Next: Add another Test and force getHeading to change
+   4. Next: Make getHeading somehow work
+2. Branch: st_pauli_iter_II (have two acceptance tests, getHeading faked)
+   1. Next: introduce logic with maps and command check (if for L and R)
+3. Branch: st_pauli_iter_III (have real turn left and command check)
+   1. Next: Refactor: Could improve Heading and excerpt logic there with Covering Test for heading? NO
+   2. Next: Refactor: Map of function for commandString Entry? NO
+   2. Next: Introduce F and move forward with map and ...
+   3. Next: Change starting point and add if(coordinate 0,0)
+   3. Next: Introduce Coordinate with Coordinate.add and Validation test for Coordinate
+4. Branch: st_pauli_iter_IV (Coordinate, refactored single methods in rover, move foward, but single command
+   1. Refactor rover test with arguments stream
+   2. Next: Add test for LL --> "stupid" start with if condition, run method twice, ...
+   3. Next: Add test for LLL ---> "stupid?" --> Refactoring
+   4. ...
 
 ----
 
@@ -389,8 +407,7 @@ Note:
 ## TDD as if <br/>You Meant It <!-- .element: style="position: absolute; top: 480px; left: -150px" -->
 
 Note:
-
-- also born in London?
+- also born in London because of the picture?
 
 ----
 
@@ -409,6 +426,10 @@ Note:
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
 ## Show
+
+Note: 
+- Just do it Start-Branch
+- Maybe show the step iter1
 
 ----
 
