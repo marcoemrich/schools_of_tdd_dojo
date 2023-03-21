@@ -37,6 +37,12 @@ Wer weiß welche Schule das ist?
 
 ----
 
+<!-- .slide: data-background="images/setup.jpg" data-background-size="contain" -->
+
+# Setup?
+
+----
+
 <!-- .slide: data-background="images/ma1_g.jpg"  -->
 
 # Coding Dojo
@@ -105,8 +111,15 @@ Let us start here, first "school", without further knowledge
 
 ## Show
 
-0. Vorbereiten?
-
+0. Branch: chicago_classic_start (to actually start)
+   1. Next: Unit/UnitTest: minimal structure of a Heading and Test
+   2. Next: make it compile, start implementing turn left
+1. Branch: chicago_classic_iter_I (have done left, right on Heading)
+   1. Next: Unit Coordinate, CoordinateTest
+   2. Next: Build move forward
+2. Branch: chicago_classic_iter_II (have Coordinate, move forward)
+   1. Next: All ingredients for the rover? Or do we need a CommandTranslator?
+   2. Rover using Heading, Coordinate to execute commands?
 ----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
@@ -160,10 +173,12 @@ Note:
 
 ## Show
 
-Note:
-- Compass
-- Turn left...
-
+0. Branch: chicago_modern_start (have done left, right on Heading)
+   1. MUST HAVE Coordinate?
+   2. Next: Build Rover with mock the dependency to heading executing commands?
+1. Branch: chicago_modern_iter_I (have done rover executing commands using heading)
+   1. Next: fillin position using Coordinate?
+   2. 
 ----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
@@ -200,13 +215,14 @@ Note:
 
 ## Show
 
-Note: 
-0. Vorbereitet: null
-1. AcceptanceTest
-2. Schritt: Rover, Coordinate, ... DESIGN! (hier starten beim Show? und entsprechend vorbereiten)
-3. 
 
-----
+0. Branch: london_start (have an AcceptanceTest, nothing else)
+    1. TODO Acceptance Test is heavy enough?
+    2. Next: Rover mit Schnittstelle für command
+    3. Schritt: Rover, Coordinate, ... DESIGN!
+1. Branch: london_iter_I (have the working AcceptanceTest, just fake impl.)
+    1. Next: ?
+2. Branch: london_iter_II
 
 <!-- .slide: data-background="images/london_g.jpg"  -->
 
@@ -243,21 +259,23 @@ Note:
 ## Show
 
 Note:
-- Global Acceptance Test
-- Heading faken in getHeading
-- Coordinate fakein in getPosition
-- Heading turnLeft
-- Heading mehrfach aufrufe in getHeading
-- Heading turnRight
-- Heading mehrfach aufrufe in getHeading
-- Liste von commands ersetzen mehrfachaufrufe
-- Heading + Forward (enutral)
-- execute dann anreichen um command zerlegen
-- Forward in get Position + 
-- Coordinate advance 
-- Funktionalität Processing Literale -> rausziehen
-- Unit tests
-- 
+0. Branch: munich_start (have an AcceptanceTest, nothing else)
+    1. Next: Acceptance Test grün
+1. Branch: munich_iter_I (have the working AcceptanceTest, just fake impl.)
+    1. Next: TODO decide which steps
+       - Heading turnLeft
+       - Heading mehrfach aufrufe in getHeading
+       - Heading turnRight
+       - Heading mehrfach aufrufe in getHeading
+       - Liste von commands ersetzen mehrfachaufrufe
+       - Heading + Forward (enutral)
+       - execute dann anreichen um command zerlegen
+       - Forward in get Position + 
+       - Coordinate advance 
+       - Funktionalität Processing Literale -> rausziehen
+       - Unit tests
+2. Branch: munich_iter_II
+
 ----
 
 <!-- .slide: data-background="images/munich_g.jpg"  -->
@@ -294,6 +312,10 @@ Note:
 ## Show
 
 Note:
+1. Branch: st_pauli_start (have a simple green AcceptanceTest, gree)
+   1. Next: Add another test
+2. Branch: st_pauli_iter_I (have two acceptance tests)
+   1. Next: 
 - Vereinfachter Acceptance Test
 - Single command L
 - Simple return
@@ -346,9 +368,10 @@ Note:
 ## Show
 
 Note:
-- Step back design
+
+- Step back and do design (15 min.)
 - Before code: design, detailed as you like
-- Implement: probably 
+- Implement the way you like?
 ----
 
 <!-- .slide: data-background="images/hamburg_g.jpg"  -->
