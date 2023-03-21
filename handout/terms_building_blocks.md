@@ -8,7 +8,11 @@ This can be achieved by injecting mocks for dependencies of a class used during 
 
 ## Backward calculation
 
-Replacing a value/result by an expression leading to that value in a specific situation
+A refactoring replacing a value/result by an expression leading to that value. This is usually done several times in a row. The refactoring starts with a fake value specific to a test and is then generalized to an actual solution.
+
+e.g replace "return 119"  with "return 100 * 1.19" with "return priceVale * vatRate"
+
+This is typically used by Munich and St.Pauli.
 
 ## Double loop
 
@@ -18,6 +22,7 @@ The idea of the double loop is that there a two tdd-cycles:
 
 The typical process is to start with an acceptance test. Then use TDD with unit tests until the acceptance test is completely full filled, ie. it is green. Write the next acceptance test and write unit tests for the acceptance test again.
 [^2]
+
 ## Front-door verification
 The verification as part of a unit test can be done in different ways.
 
