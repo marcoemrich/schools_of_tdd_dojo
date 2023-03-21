@@ -178,7 +178,7 @@ Note:
    2. Next: Build Rover with mock the dependency to heading executing commands?
 1. Branch: chicago_modern_iter_I (have done rover executing commands using heading)
    1. Next: fillin position using Coordinate?
-   2. 
+   2.
 ----
 
 <!-- .slide: data-background="images/chicago_g.jpg"  -->
@@ -270,8 +270,8 @@ Note:
        - Liste von commands ersetzen mehrfachaufrufe
        - Heading + Forward (enutral)
        - execute dann anreichen um command zerlegen
-       - Forward in get Position + 
-       - Coordinate advance 
+       - Forward in get Position +
+       - Coordinate advance
        - Funktionalität Processing Literale -> rausziehen
        - Unit tests
 2. Branch: munich_iter_II
@@ -315,7 +315,7 @@ Note:
 1. Branch: st_pauli_start (have a simple green AcceptanceTest, gree)
    1. Next: Add another test
 2. Branch: st_pauli_iter_I (have two acceptance tests)
-   1. Next: 
+   1. Next:
 - Vereinfachter Acceptance Test
 - Single command L
 - Simple return
