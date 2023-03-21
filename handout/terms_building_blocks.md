@@ -17,10 +17,10 @@ This is typically used by Munich and St.Pauli.
 ## Double loop
 
 The idea of the double loop is that there a two tdd-cycles:
-1. An outer one describing the Acceptance Tests for a feature or capability
-2. An inner one which drives the outer Acceptance Test by small unit tests
+1. An outer loop describing the Acceptance Tests for a feature or capability
+2. An inner loop which drives the outer Acceptance Test by small unit tests
 
-The typical process is to start with an acceptance test. Then use TDD with unit tests until the acceptance test is completely full filled, ie. it is green. Write the next acceptance test and write unit tests for the acceptance test again.
+The typical process is to start with an acceptance test. Then use TDD with unit tests until the acceptance test is completely fulfilled, ie. it is green. Write the next acceptance test and write unit tests for the acceptance test again.
 [^2]
 
 ## Front-door verification
@@ -40,7 +40,7 @@ These pieces are assembled to build the complete system.
 The opposite is outside in strategy.
 
 ## Mocks / Spies
-Mocks are pre-programmed with expectations which form a specification of the calls they are expected to receive. The are used to verify, that specific method-calls (with possibly specific arguments) are executed.
+Mocks and Spies are used to verify, that specific method-calls (with possibly specific arguments) are executed. Mocks are pre-programmed with their expectation, while Spies record their call and can be inspected later.
 
 ## Outside In Strategy
 When deciding where to start with a system, one can choose to begin with the overall functionality.
@@ -64,12 +64,6 @@ If the test is explicitly testing the classes behaviour without the productive v
 Dependant classes can be replaced using fake objects.
 The opposite is a sociable test.
 Also see an article about solitary vs. sociable test[^4]
-
-## Spy
-Spies are stubs that also record some information based on how they were called.
-One form of this might be an email service that records how many messages it was sent.[^1]
-
-This is different from what e.g. Mockito framework provides as a spy.[^5]
 
 ## Stub
 Stubs provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.[^1]
