@@ -3,24 +3,21 @@
 In alphabetic order, because we want to easily find each entry when mentioned.
 
 ## Back-door verification
-The verification as part of a unit test can be done in different ways.
-
-The verification of behaviour executed by a unit under test during test execution is called backdoor verification.
+The verification of behavior executed by a unit under test during test execution is called backdoor verification.
 This can be achieved by injecting mocks for dependencies of a class used during tests and verify the interactions with that mock.
-There is also another technique called front-door verification.
 
 ## Backward calculation
-[^3] ?
 
-## Double loop Acceptance TDD (DLATDD)
-[^2] ?
+Replacing a value/result by an expression leading to that value in a specific situation
 
-## Dummy objects
-Dummy objects are passed around but never actually used. Usually they are just used to fill parameter lists.[^1]
+## Double loop
 
-## Fake object
-A fake object actually has working implementations, but usually take some shortcut which makes them not suitable for production (an InMemoryTestDatabase is a good example).[^1]
+The idea of the double loop is that there a two tdd-cycles:
+1. An outer one describing the Acceptance Tests for a feature or capability
+2. An inner one which drives the outer Acceptance Test by small unit tests
 
+The typical process is to start with an acceptance test. Then use TDD with unit tests until the acceptance test is completely full filled, ie. it is green. Write the next acceptance test and write unit tests for the acceptance test again.
+[^2]
 ## Front-door verification
 The verification as part of a unit test can be done in different ways.
 
@@ -32,14 +29,13 @@ Alternatively the state of a unit under test is used, by e.g. using getters.
 
 
 ## Inside Out Strategy
-When deciding where to start with a system, you may choose to begin with small internal parts. 
+When deciding where to start with a system, you may choose to begin with small internal parts.
 This strategy for development makes us think about designing small pieces with clear and single responsibility.
 These pieces are assembled to build the complete system.
 The opposite is outside in strategy.
 
-## Mock
-Mocks are pre-programmed with expectations which form a specification of the calls they are expected to receive.
-They can throw an exception if they receive a call they don't expect and are checked during verification to ensure they got all the calls they were expecting.[^1]
+## Mocks / Spies
+Mocks are pre-programmed with expectations which form a specification of the calls they are expected to receive. The are used to verify, that specific method-calls (with possibly specific arguments) are executed.
 
 ## Outside In Strategy
 When deciding where to start with a system, one can choose to begin with the overall functionality.
@@ -92,7 +88,7 @@ The generic term he uses is a Test Double (think stunt double). Test Double is a
 ## Triangulation
 In test driven development, assertions are used in tests as guidance and to derive logic.
 One assertion might be not enough to start implementing logic.
-This uncertainty can be tackled by using more than one assertion and fake implementation steps. 
+This uncertainty can be tackled by using more than one assertion and fake implementation steps.
 When clarity has come or patterns become visible, the logic is implemented.[^6]
 
 ## Validation test
