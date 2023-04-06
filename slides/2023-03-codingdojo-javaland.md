@@ -479,6 +479,11 @@ Note:
 @MarcoEmrich
 @srose
 
+Handout
+
+<img src="images/qrcode.png" height="250"/>
+https://www.surrex.de/nc/index.php/s/75cXfxiNxrYpgYS
+
 Note:
 
 - Bild?
