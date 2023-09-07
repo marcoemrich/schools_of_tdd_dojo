@@ -1,0 +1,31 @@
+----
+Intro 20 min.
+- Slides (inkl. Mars Rover Erklärung)
+
+----
+"Chicago"
+ - kurz Ein-Zwei Schritte im Code zeigen
+
+---
+Slide "Liste der Schulen"
+
+----
+"St. Pauli",
+- Intro (1 Slide)
+
+- 30 min "coding" (Marco und Sebastian im Pair)
+  - hier: Einführung TDD mit kompass rechts-drehen?
+  - Theorie (Teil der Praxis)
+    - Munich + Triangulation Pattern (warten bis es ein test fordert, bis man um die echte impl. nicht mehr herumkommt)
+    - impl. turn right, N -> turn right -> O, O -> turn right -> S
+    - impl. turn right, N -> turn right -> O, O -> turn right -> S: Test: kleine nicht produktive schritte im code "dreckig"
+    - Rover mit langem command ("01S","FFLFRB","02N")
+
+- Selber machen (30 min?)
+
+---
+"TDD as if you mean it" 10 min
+Implementierung darf nur durch Refactoring aus den Tests entstehen?
+Kompass - Basisbausteine bauen
+Testcode, testcode, testcode... erst genug lernen und viele tests haben, dann durch refactoring! "echten" Code schreiben
+zur Discovery länger in Test "bleiben"
