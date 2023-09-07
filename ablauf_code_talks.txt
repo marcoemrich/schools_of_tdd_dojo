@@ -1,10 +1,14 @@
 ----
-Intro 20 min.
+Intro
 - Slides (inkl. Mars Rover Erklärung)
+
+10 min`
 
 ----
 "Chicago"
  - kurz Ein-Zwei Schritte im Code zeigen
+
+10 min
 
 ---
 Slide "Liste der Schulen"

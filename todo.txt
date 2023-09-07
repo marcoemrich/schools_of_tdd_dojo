@@ -34,3 +34,6 @@
     - welche brauchen wir?
   - Schools (Liste aller Schulen und das wichtigste zum nach-recherchieren?)
   -
+
+
+  - Slides: Hinweis zum Pairing
