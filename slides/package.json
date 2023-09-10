@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "reveal-md 2023-03-codingdojo-javaland.md -w --template reveal.html --theme sky"
+    "start": "reveal-md 2023-03-codingdojo-code-talks.md -w --template reveal.html --theme sky"
   },
   "keywords": [],
   "author": "",
