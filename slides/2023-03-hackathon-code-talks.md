@@ -35,20 +35,7 @@ Wer weiß welche Schule das ist?
 
 # Welcome!
 
-----
 
-<!-- .slide: data-background="images/setup.jpg" data-background-size="contain" -->
-
-# Setup?
-https://github.com/srose/marsrover <!-- .element: class="fragment" style="color:white" -->
-
-mvn clean verify <!-- .element: class="fragment" style="color:white" -->
-
-----
-
-<!-- .slide: data-background="images/ma1_g.jpg"  -->
-
-# Coding Dojo
 
 ----
 
@@ -154,24 +141,6 @@ Note:
 - ...
 
 
-
-----
-
-<!-- .slide: data-background="images/chicago_g.jpg"  -->
-
-## Show
-
-Note:
-
-0. Branch: chicago_modern_start (same as chicago iter II before)
-   1. Show Problem!
-   2. Refactor to isolate test, 2nd constructor
-1. Branch: chicago_modern_iter_I (have done one refactoring)
-   2. Next: Insert Mock for Heading
-2. Branch: chicago_modern_iter_II (have done mocking)
-   1. Next: fill in position using Coordinate
-
-
 ---
 
 <!-- .slide: data-background="images/stpauli.jpg"  -->
@@ -219,6 +188,24 @@ Note:
    3. Next: Add test for LLL ---> "stupid?" --> Refactoring
    4. ...
 
+
+----
+
+<!-- .slide: data-background="images/setup.jpg" data-background-size="contain" -->
+
+# Your Turn!
+
+
+
+----
+
+<!-- .slide: data-background="images/setup.jpg" data-background-size="contain" -->
+
+# Setup?
+https://github.com/srose/marsrover <!-- .element: class="fragment" style="color:white" -->
+
+mvn clean verify <!-- .element: class="fragment" style="color:white" -->
+
 ----
 
 <!-- .slide: data-background="images/stpauli_g.jpg"  -->
@@ -230,6 +217,7 @@ Note:
 - Even more On-Rails <!-- .element: style="color: #4dff4dbd" -->
 - simpler than Munich for beginners <!-- .element: style="color: #4dff4dbd" -->
 - Triangulation can be slow <!-- .element: style="color: red" -->
+
 
 ---
 
@@ -262,6 +250,13 @@ Note:
 Note:
 - Just do it Start-Branch
 - Maybe show the step iter1
+
+----
+
+<!-- .slide: data-background="images/setup.jpg" data-background-size="contain" -->
+
+# Your Turn!
+
 
 ----
 
