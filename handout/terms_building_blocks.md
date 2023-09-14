@@ -95,10 +95,10 @@ When having a sociable test, there might be functionality tested implicitly by a
 To guard this functionality explicitly, a designated test can be introduced.
 This test created afterwards is called a validation test.
 
-References
-[^1] https://martinfowler.com/bliki/TestDouble.html
-[^2] https://www.sammancoaching.org/learning_hours/bdd/double_loop_tdd.html
-[^3] https://arialdomartini.wordpress.com/2012/07/20/you-wont-believe-how-old-tdd-is
-[^4] https://martinfowler.com/bliki/UnitTest.html
-[^5] https://site.mockito.org/javadoc/current/org/mockito/Spy.html
-[^6] https://dmitripavlutin.com/triangulation-test-driven-development/
+----
+[^1]: https://martinfowler.com/bliki/TestDouble.html 
+[^2]: https://www.sammancoaching.org/learning_hours/bdd/double_loop_tdd.html
+[^3]: https://arialdomartini.wordpress.com/2012/07/20/you-wont-believe-how-old-tdd-is
+[^4]: https://martinfowler.com/bliki/UnitTest.html
+[^5]: https://site.mockito.org/javadoc/current/org/mockito/Spy.html
+[^6]: https://dmitripavlutin.com/triangulation-test-driven-development/

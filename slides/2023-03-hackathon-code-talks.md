@@ -16,7 +16,7 @@ revealOptions:
 <h1 style="text-transform: none;">7 Schools<br/> of TDD</h1>
 
 <p style="position: absolute; top: 530px; right: -145px; color: #ccc; text-transform: none; text-align: right" class="handles">
-  @MarcoEmrich - @srose
+  @MarcoEmrich - @srose204
 </p>
 <img src="images/cc.png" class="borderless" style="position: absolute; top: 600px; right: -145px;  width: 350px;" />
 <br/><br/><br/><br/><br/><br/><br/>
@@ -202,9 +202,16 @@ Note:
 <!-- .slide: data-background="images/setup.jpg" data-background-size="contain" -->
 
 # Setup?
+
 https://github.com/srose/marsrover <!-- .element: class="fragment" style="color:white" -->
 
-mvn clean verify <!-- .element: class="fragment" style="color:white" -->
+(or use your own) <!-- .element: class="fragment" style="color:white" -->
+
+----
+
+<!-- .slide: data-background="images/setup.jpg" data-background-size="contain" -->
+
+# Your Turn!
 
 ----
 
@@ -301,16 +308,14 @@ Note:
 
 # THX
 
-## Feedback
+## Feedback welcome!
 
-@MarcoEmrich
-@srose
+## Some summary pdf to take away
 
+![An image](images/barcode_link_terms.png) <!-- .element height="20%" width="20%" -->
 https://www.surrex.de/nc/index.php/s/75cXfxiNxrYpgYS
 
-Note:
 
-- Bild?
 
 ----
 
