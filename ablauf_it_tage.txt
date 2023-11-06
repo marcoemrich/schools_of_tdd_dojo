@@ -1,0 +1,42 @@
+
+___
+welcome/intro?
+    -- Today...
+    -- Paare finden
+
+___
+setup (10+5 min max)
+    --jvm: java
+    --typescript: ...
+    --eingerichtete Entwicklungsumgebung mit allen herstellen
+    --Cyberdojo als Backup
+    --Pair: handover?
+
+___
+kata(s): sauber getrennt "klar" machen/einführen
+    -- mars rover (für munich etwas anderes)
+    -- diamond (für london etwas anderes)
+    --
+___
+
+intro test driven development
+
+____
+Schulen
+
+- chicago classic
+- chicago modern
+- london
+- munich
+- hamburg
+- st. pauli
+- tdd as if you meant it
+- TCR? revert/commit auto?
+- Portland
+- ...
+
+a) je die Knackpunkte in der Schule mit Vorführen/Nachmachen
+b) mehrere Iterationen
+c) immer bei 0 anfangen, weil einarbeiten?
+d) wie kriegt man den Einstieg hin?
+
