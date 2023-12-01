@@ -2,7 +2,14 @@
 ___
 welcome/intro?
     -- Today...
-    -- Paare finden
+    -- Sebastian erzählt über den Ansatz
+    -- Paare finden (Wechselhinweis für den Rest des Tages- noch überlegen)
+    -- Organisatorisches / Zeitplan klären
+
+___
+
+intro test driven development
+
 
 ___
 setup (10+5 min max)
@@ -14,20 +21,16 @@ setup (10+5 min max)
 
 ___
 kata(s): sauber getrennt "klar" machen/einführen
-    -- mars rover (für munich etwas anderes)
-    -- diamond (für london etwas anderes)
-    --
-___
 
-intro test driven development
+ * Mars Rover einführen (für alle Schulen außer London & Munich)
 
 ____
 Schulen
 
 - chicago classic
 - chicago modern
-- london
-- munich
+- london mit Einführung Banking Kata
+- munich mit Einführung Diamond Kata
 - hamburg
 - st. pauli
 - tdd as if you meant it
@@ -40,3 +43,7 @@ b) mehrere Iterationen
 c) immer bei 0 anfangen, weil einarbeiten?
 d) wie kriegt man den Einstieg hin?
 
+TODOs:
+
+ * Marco: Slides vorbereiten
+ * Basis Repo für TS
