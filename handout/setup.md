@@ -2,8 +2,8 @@
 
 ## Description
 
-Regardless of the kata and the flow of the dojo, create a starting point that meets all of the following points, if applicable:
-- Java (>= 17)
+Regardless of the kata and the flow of the dojo, create a starting point that meets all the following points, if applicable:
+- Java (>= 21
 - Build tool (maven, gradle, ...), maven is used in our template.
 - Git
 - Base project with main function and necessary dependencies for unit tests as well as an initial git branch e.g. main
@@ -13,7 +13,7 @@ Regardless of the kata and the flow of the dojo, create a starting point that me
 
 ## Beschreibung
 Unabhängig von der Kata und dem Ablauf des Dojos erschafft euch einen Startpunkt, der ggf. alle folgenden Punkte erfüllt:
-- Java (>= 17)
+- Java (>= 21)
 - Build-tool (maven, gradle, ...), maven wird in der Vorlage benutzt.
 - Git
 - Basisprojekt mit Main-funktion und nötigen Abhängigkeiten für Unit-tests sowie einem initialen git Branch z.B. main

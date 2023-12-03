@@ -1,4 +1,4 @@
-# Die Marsrover Kata
+# Marsrover Kata
 
 - You are given a starting point (x,y) and a direction (N,E,S,W).
 - The rover receives a collection of commands.
