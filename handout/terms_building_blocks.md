@@ -72,7 +72,7 @@ Stubs provide canned answers to calls made during the test, usually not respondi
 Summary: testing is an essential part of software development.
 This was known even in the ancient days of software developement[^3].
 Let tests guide the process of design a software system is key to TDD.
-Beside the ongoing discussions around the pros and cons, this is the essential flow:
+The red-green-refactor flow is depicted below:
 
 ![Flow](images/tdd.drawio.png "Flow")
 
