@@ -29,11 +29,15 @@ Schulen
 
 - chicago classic
 - chicago modern
+
 - london mit Einführung Banking Kata
-- munich mit Einführung Diamond Kata
-- hamburg
+
 - st. pauli
+- munich mit Einführung Diamond Kata
+
+- hamburg
 - tdd as if you meant it
+
 - TCR? revert/commit auto?
 - Portland
 - ...
@@ -42,6 +46,9 @@ a) je die Knackpunkte in der Schule mit Vorführen/Nachmachen
 b) mehrere Iterationen
 c) immer bei 0 anfangen, weil einarbeiten?
 d) wie kriegt man den Einstieg hin?
+
+Retro nach jeder Schule? Retro-Typ?
+
 
 TODOs:
 
