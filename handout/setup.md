@@ -20,4 +20,5 @@ Regardless of the kata and the flow of the dojo, create a starting point that me
 * maven (>= 3.8)
 
 ### Typescript
-* ?
+* node (>= 18)
+* npm (>= 9)

@@ -34,6 +34,7 @@ Motivation: Avoids Mocks
 Motivation: Think Before Coding
 * Design Up Front (BDUF vs. DUF)
 * Analyze->Design->Code
+* Testing itself from another school
 
 ## St. Pauli
 Motivation: Simple Starter-Test
@@ -48,9 +49,6 @@ Motivation: Feedback-Driven Design
 * Write Production Code in Tests as long as possible
 → Delay Design Decisions
 * Refactor to Structure
-
-## TCR, revert, commit, auto...
-Motivation: ?
 
 ## Portland
 Motivation: ?
