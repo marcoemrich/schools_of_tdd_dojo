@@ -280,6 +280,27 @@ Note:
 
 ## for the job
 
+
+----
+<!-- .slide: data-background="images/ma1_g.jpg"  -->
+
+# Coding Dojo
+## Coderetreat Style
+
+----
+<!-- .slide: data-background="images/pair.png"  -->
+
+----
+<!-- .slide: data-background="images/todo.jpg"  -->
+
+## TODOs Today <!-- .element: style="position: relative; top: -220px" -->
+
+
+----
+<!-- .slide: data-background="images/shipwreck.jpg"  -->
+
+## No Shipping Day <!-- .element: style="position: relative; top: 380px" -->
+
 ---
 
 <!-- .slide: data-background="images/setup.jpg"  -->
@@ -290,14 +311,6 @@ https://github.com/srose/marsrover <!-- .element: class="fragment" style="color:
 
 mvn clean verify <!-- .element: class="fragment" style="color:white" -->
 
-----
-<!-- .slide: data-background="images/ma1_g.jpg"  -->
-
-# Coding Dojo
-## Coderetreat Style
-
-----
-<!-- .slide: data-background="images/pair.png"  -->
 
 ---
 
@@ -662,6 +675,14 @@ Note:
 - High Refacturability <!-- .element:  style="color: #4dff4dbd" -->
 - Feels slow to start<!-- .element:  style="color: red" -->
 
+---
+<!-- .slide: data-background="images/mirror.jpg"  --> <!-- .element: style="position: relative; left: 250px" -->
+# Retro
+
+---
+
+<!-- .slide: data-background="images/ccstand.png"  -->
+
 
 ---
 
@@ -736,6 +757,7 @@ Note:
 
 <ul style="font-size: 15px">
 
+- TODO-Tatoo von Rob and Stephanie Levy
 - Kent Beck by Improve It on Flickr, CC BY-SA 2.0
 - Making of Harry Potter - Karen Roe on Flickr, CC BY 2.0
 - Children practicing Taekwondo in Kathmandu, Nepal by Adli Wahid on Unsplash, CC0
