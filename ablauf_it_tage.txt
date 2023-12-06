@@ -8,6 +8,9 @@ welcome/intro?
 
 ___
 
+
+Frage: Wer hat praktische Erfahrung mit TDD?
+
 intro test driven development
 
 

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "reveal-md 2023-03-hackathon-code-talks.md -w --template reveal.html --theme sky"
+    "start": "reveal-md 2023-12-workshop-it-tage.md -w --template reveal.html --theme sky"
   },
   "keywords": [],
   "author": "",
