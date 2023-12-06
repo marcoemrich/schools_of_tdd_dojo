@@ -303,14 +303,21 @@ Note:
 
 ---
 
-<!-- .slide: data-background="images/setup.jpg"  -->
+<!-- .slide: data-background="images/setup_g.jpg"  -->
 
 
-# Setup?
-https://github.com/srose/marsrover <!-- .element: class="fragment" style="color:white" -->
+### Setup Java
 
-mvn clean verify <!-- .element: class="fragment" style="color:white" -->
+* https://github.com/srose/marsrover <!-- .element: style="color:white" -->
+* mvn clean verify
 
+<br />
+
+### Setup JS/TS
+
+* https://github.com/marcoemrich/kata-starter <!-- .element: style="color:white" -->
+* npm install
+* npm test
 
 ---
 
