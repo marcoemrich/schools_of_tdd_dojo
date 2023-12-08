@@ -759,6 +759,11 @@ Note:
 - [TDD as if You Meant It - My turn!](https://melanieburns.net/blog/2019/12/tdd-as-if-you-meant-it-my-turn)
 
 ----
+## References: Portland
+
+https://www.jamesshore.com/v2/projects/nullables/testing-without-mocks
+
+----
 
 ### Image Credits
 
