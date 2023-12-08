@@ -18,8 +18,10 @@ revealOptions:
 <p style="position: absolute; top: 530px; right: -145px; color: #ccc; text-transform: none; text-align: right" class="handles">
   @MarcoEmrich - @srose
 </p>
+<img src="images/ittage.png" style="width: 430px; position: absolute; top: 400px; left: -150px; transform: rotate(15deg);">
 <img src="images/cc.png" class="borderless" style="position: absolute; top: 600px; right: -145px;  width: 350px;" />
 <br/><br/><br/><br/><br/><br/><br/>
+
 
 Note:
 
