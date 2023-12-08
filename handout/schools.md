@@ -1,12 +1,12 @@
 # Die Schulen der testgetriebenen Softwareentwicklung (TDD) - Zusammenfassung
 
-Der Begriff Schule ist nicht perfekt. 
+Der Begriff Schule ist nicht perfekt.
 
 Es gibt keine "beste", "wahre" oder "einzige" Schule.
 
-## Chicago (classy) 
+## Chicago (classy)
 - Inside-out
-- No Test Doubles
+- Test Doubles for outside dependencies
 
 *Anmerkung*: Vermutlich wird das so heute keiner mehr machen.
 
@@ -23,8 +23,15 @@ Motivation: YAGNI
 * Solitary/Isolated Tests
 * Mocks for Verification
 
+## St. Pauli
+Motivation: Outside-In without Mocks and Simple Starter-Test
+* Outside-In
+* Avoids Mocks
+* Triangulation/Refactoring-based
+* Append Only
+
 ## Munich
-Motivation: Avoids Mocks
+Motivation: Outside-In without Mocks
 * Outside-In
 * temporary in-production Stubs/Fakes
 * Refactoring-based
@@ -34,14 +41,6 @@ Motivation: Avoids Mocks
 Motivation: Think Before Coding
 * Design Up Front (BDUF vs. DUF)
 * Analyze->Design->Code
-* Testing itself from another school
-
-## St. Pauli
-Motivation: Simple Starter-Test
-* Outside-In
-* Avoids Mocks
-* Triangulation/Refactoring-based
-* Append Only
 
 ## TDD as if you meant it...
 Motivation: Feedback-Driven Design
@@ -51,4 +50,8 @@ Motivation: Feedback-Driven Design
 * Refactor to Structure
 
 ## Portland
-Motivation: ?
+Motivation: Testing without Mocks
+* Inside-Out
+* No Mocks for outside dependencies
+* Overlapping Sociable Tests
+* Narrow Sociable Tests
