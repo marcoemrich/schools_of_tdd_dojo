@@ -178,6 +178,14 @@ Carnegie Mellon University (2005)
 
 ----
 
+<!-- .slide: data-background="images/tdd_alternative.png" data-background-size="contain" data-background-color="white" -->
+
+----
+
+<!-- .slide: data-background="images/tdd_not_strict.png" data-background-size="contain" data-background-color="white" -->
+
+----
+
 <!-- .slide: data-background="images/ampel_g.png" -->
 
 # <span style="color: red;">A</span>rrange
@@ -222,8 +230,13 @@ Jest garantiert keine Reihenfolge, Tests dürfen sich nicht beeinflussen
 
 <!-- .slide: data-background="images/babysteps.jpg" -->
 
-
 # Baby Steps
+
+----
+
+# Download TDD-cycle PDF
+
+<img src="images/barcode_tdd.png" style="height: 400px" />
 
 ---
 <!-- .slide: data-background="images/hourglass.jpg" -->
@@ -310,7 +323,7 @@ Note:
 
 ### Setup Java
 
-* https://github.com/srose/marsrover <!-- .element: style="color:white" -->
+* https://github.com/srose/kata-starter-java <!-- .element: style="color:white" -->
 * mvn clean verify
 
 <br />
@@ -320,6 +333,11 @@ Note:
 * https://github.com/marcoemrich/kata-starter <!-- .element: style="color:white" -->
 * npm install
 * npm test
+
+----
+# Download Setup PDF
+
+<img src="images/barcode_setup.png" style="height: 400px" />
 
 ---
 
@@ -345,6 +363,10 @@ Note:
 # Broken Wheel
 ### "LFFFLFF"
 
+----
+# Download Kata PDF
+
+<img src="images/barcode_kata.png" style="height: 400px" />
 
 ---
 
@@ -700,7 +722,12 @@ Note:
 ## Feedback
 
 @MarcoEmrich
-@srose
+Sebastian Rose (LinkedIn)
+
+----
+# Download giveaway PDFs
+
+<img src="images/barcode_final.png" style="height: 400px" />
 
 ----
 

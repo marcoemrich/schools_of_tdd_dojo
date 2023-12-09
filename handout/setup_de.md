@@ -18,10 +18,12 @@ Unabhängig von der Kata und dem Ablauf des Dojos erschafft euch einen Startpunk
 ### Java
 * Java (>= 21)
 * maven (>= 3.8)
-* https://github.com/srose/marsrover
+* https://github.com/srose/kata-starter-java
 * mvn clean verify
 
 ### Typescript / JavaScript
+* node (>= 18)
+* npm (>= 9)
 * https://github.com/marcoemrich/kata-starter
 * npm install
 * npm test

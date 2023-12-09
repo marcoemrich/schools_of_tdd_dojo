@@ -74,7 +74,9 @@ This was known even in the ancient days of software developement[^3].
 Let tests guide the process of design a software system is key to TDD.
 The red-green-refactor flow is depicted below:
 
-![Flow](images/tdd.drawio.png "Flow")
+![Flow](images/tdd_alternative.png "Flow")
+
+![Flow](images/tdd_not_strict.png "Flow")
 
 ## Test Double
 The following is an excerpt from Marting Fowlers text about test doubles[^1]

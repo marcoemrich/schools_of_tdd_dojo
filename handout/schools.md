@@ -5,7 +5,7 @@ Der Begriff Schule ist nicht perfekt.
 Es gibt keine "beste", "wahre" oder "einzige" Schule.
 
 ## Chicago (classy)
-- Inside-out
+- Inside-Out
 - Test Doubles for outside dependencies
 
 *Anmerkung*: Vermutlich wird das so heute keiner mehr machen.

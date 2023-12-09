@@ -18,7 +18,12 @@ Regardless of the kata and the flow of the dojo, create a starting point that me
 ### Java
 * Java (>= 21)
 * maven (>= 3.8)
+* https://github.com/srose/kata-starter-java
+* mvn clean verify
 
 ### Typescript
 * node (>= 18)
 * npm (>= 9)
+* https://github.com/marcoemrich/kata-starter
+* npm install
+* npm test
