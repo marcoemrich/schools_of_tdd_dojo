@@ -14,7 +14,7 @@ Unabhängig von der Kata und dem Ablauf des Dojos erschafft euch einen Startpunk
 - Funktionen in der IDE: Projekt bauen, testen, debuggen sind einsatzbereit
 
 ### Java
-* Java (>= 21)
+* Java (>= 17)
 * maven (>= 3.8)
 * https://github.com/srose/kata-starter-java
 * mvn clean verify

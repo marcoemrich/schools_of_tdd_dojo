@@ -14,7 +14,7 @@ Regardless of the kata and the course of the dojo, create a starting point that 
 - Functions in the IDE: build project, test, debug are ready for use
 
 ### Java
-* Java (>= 21)
+* Java (>= 17)
 * maven (>= 3.8)
 * https://github.com/srose/kata-starter-java
 * mvn clean verify
