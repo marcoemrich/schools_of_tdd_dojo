@@ -1,19 +1,17 @@
-# Setup: Die sieben Schulen der TDD
+# Setup: Seven schools of TDD
 
-Please create a local setup to be able to work with during the complete workshop.
-You can bring and follow using your choice of programming language and tooling.
-We provide two opinionated example-setups for Typescript and Java. 
-If none of the above works for you, please use [https://beta.cyber-dojo.org/creator/home](https://beta.cyber-dojo.org/creator/home) as a fallback. 
+Please create a local setup that you can work with during the entire workshop.
+You can bring a programming language and a tool of your choice.
+We will provide two example setups for Typescript and Java.
+If none of these setups are suitable for you, please use [https://beta.cyber-dojo.org/creator/home](https://beta.cyber-dojo.org/creator/home) as an alternative.
 
 ## Description
-Regardless of the kata and the flow of the dojo, create a starting point that meets all the following points, if applicable:
-- Compiler
-- Build tool
-- Git
-- Base project with main function and necessary dependencies for unit tests as well as an initial git branch e.g. main
-- On the command line the base project can be built, tested and started via calls to the base project
+Regardless of the kata and the course of the dojo, create a starting point that fulfills all of the following characteristics:
+- The necessary basic tools are available: Compiler, build tool, Git
+- Base project with main function and necessary dependencies for unit tests as well as an initial git branch, e.g. main
+- The base project 'mvn clean verify' can be built on the command line and the tests are executed
 - IDE with loaded, error-free base project
-- Working functions in the IDE with the base project: build, test, start project
+- Functions in the IDE: build project, test, debug are ready for use
 
 ### Java
 * Java (>= 21)

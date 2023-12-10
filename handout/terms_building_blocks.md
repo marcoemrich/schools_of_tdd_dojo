@@ -76,6 +76,8 @@ The red-green-refactor flow is depicted below:
 
 ![Flow](images/tdd_alternative.png "Flow")
 
+When looking at the tests over time: tests alternate between red and green. The code grows in small steps over the requirement that is always expressed first by tests. Refactoring might not happen in each cycle and maybe there are multiple refactoring-steps following each other. Refactoring is a step that is only permitted if the tests are green. Only changes that do not change any functionality may be made, e.g. changes relating to maintainability. The tests are green during refactoring. This is depicted below:
+
 ![Flow](images/tdd_not_strict.png "Flow")
 
 ## Test Double

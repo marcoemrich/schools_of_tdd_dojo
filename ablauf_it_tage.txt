@@ -4,13 +4,12 @@ welcome/intro?
     -- Today...
     -- Sebastian erzählt über den Ansatz
     -- Paare finden (Wechselhinweis für den Rest des Tages- noch überlegen)
+    --- Frage: Wer hat praktische Erfahrung mit TDD? -> In einer Reihe aufstellen und in der mitte falten)
     -- Organisatorisches / Zeitplan klären
 
 ___
 
-
-Frage: Wer hat praktische Erfahrung mit TDD?
-
+Wer hat praktische Erfahrung mit TDD? (hier wieviel, wie tief muss das intro sein?)
 intro test driven development
 
 
@@ -25,24 +24,18 @@ setup (10+5 min max)
 ___
 kata(s): sauber getrennt "klar" machen/einführen
 
- * Mars Rover einführen (für alle Schulen außer London & Munich)
+ * Mars Rover einführen (für alle Schulen, auch wenn nicht immer ideal)
 
 ____
 Schulen
 
 - chicago classic
 - chicago modern
-
-- london mit Einführung Banking Kata
-
+- london
 - st. pauli
-- munich mit Einführung Diamond Kata
-
+- munich
 - hamburg
 - tdd as if you meant it
-
-- TCR? revert/commit auto?
-- Portland
 - ...
 
 a) je die Knackpunkte in der Schule mit Vorführen/Nachmachen
@@ -50,10 +43,4 @@ b) mehrere Iterationen
 c) immer bei 0 anfangen, weil einarbeiten?
 d) wie kriegt man den Einstieg hin?
 
-Retro nach jeder Schule? Retro-Typ?
-
-
-TODOs:
-
- * Marco: Slides vorbereiten
- * Basis Repo für TS
+Retro vor Ende eine
