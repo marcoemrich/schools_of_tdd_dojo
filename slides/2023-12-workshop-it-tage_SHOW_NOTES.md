@@ -44,25 +44,20 @@
 
 ---
 
-TODO STIMMT NICHT...
-
 1. Branch: st_pauli_start (have a simple green AcceptanceTest, green)
+   0. Hunting for a position implementation
+   1. Have a test, that checks for not changing the position on command L
+   2. Next: Add test with moving Forward, fake the result
+   3. Next: Add another Test movingForward (starting NORTH) and force getPosition to change
+   4. Next: Make getPosition somehow work
 2. Branch: st_pauli_iter_I (nothing changed)
-    1. Next: Add another Test and force getHeading to change
-    2. Next: Make getHeading somehow work
+    1. Next: Add another Test movingForward starting EAST and force getPosition to change
+    2. Next: Add 'inDirection' to Coordinate with  
+    2. Next: Make getPosition somehow work
 3. Branch: st_pauli_iter_II (have two acceptance tests, getHeading faked)
-    1. Next: introduce logic with maps and command check (if for L and R)
+    1. Next: Add CoordinateTest as discovered Coordinate and its functionality
+    2. Next: Complete Coordinate inDirection Method 
 4. Branch: st_pauli_iter_III (have real turn left and command check)
-    1. Next: Refactor: Could improve Heading and excerpt logic there with Covering Test for heading? NO
-    2. Next: Refactor: Map of function for commandString Entry? NO
-    2. Next: Introduce F and move forward with map and ...
-    3. Next: Change starting point and add if(coordinate 0,0)
-    3. Next: Introduce Coordinate with Coordinate.add and Validation test for Coordinate
-5. Branch: st_pauli_iter_IV (Coordinate, refactored single methods in rover, move foward, but single command
-    1. Refactor rover test with arguments stream
-    2. Next: Add test for LL --> "stupid" start with if condition, run method twice, ...
-    3. Next: Add test for LLL ---> "stupid?" --> Refactoring
-    4. ...
 
 ----
 
@@ -82,6 +77,6 @@ TODO STIMMT NICHT...
       - Jeweils Unit tests?
 
 ----
-
-- Just do it Start-Branch
-- Maybe show the step iter1
+Java 21! Whohoo :)
+- Just do it: tdd_as_if_start
+- Maybe show the step tdd_as_if_iter1 (derived functionality, still in test)
