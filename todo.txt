@@ -1,0 +1,9 @@
+TODO
+ * Loesung fur AI-TDD_Setup
+ * Check QR-Codes / Handsouts
+ * Java-Starter
+ * Add LinkedIn?
+
+DONE
+ * Portland
+ * TS-Starter

@@ -1,5 +1,5 @@
 ---
-title: Die sieben Schulen der TDD
+title: Schools of Test Driven Development
 theme: solarized
 revealOptions:
   transition: "fade"
@@ -11,14 +11,12 @@ revealOptions:
 
 <!-- .slide: data-background="images/schools2.jpg"   -->
 
-# Coding Dojo
 
-<h1 style="text-transform: none;">7 Schools<br/> of TDD</h1>
+<h1 style="text-transform: none;">Schools of <br/>Test-Driven Development</h1>
 
 <p style="position: absolute; top: 530px; right: -145px; color: #ccc; text-transform: none; text-align: right" class="handles">
   Marco Emrich - Sebastian Rose
 </p>
-<img src="images/ittage.png" style="width: 430px; position: absolute; top: 400px; left: -150px; transform: rotate(15deg);">
 <img src="images/cc.png" class="borderless" style="position: absolute; top: 600px; right: -145px;  width: 350px;" />
 <br/><br/><br/><br/><br/><br/><br/>
 
@@ -254,16 +252,17 @@ Jest garantiert keine Reihenfolge, Tests dürfen sich nicht beeinflussen
 
 <!-- .slide: data-background="images/ma1_g.jpg"  -->
 
-## Seven schools of TDD
+## TDD-Schools / Styles
 
-- Chicago (classic / modern)
-- London
-- St.Pauli
-- Munich
-- Hamburg
-- TDD As If You Meant It
-- Portland
-- _more..._
+- 1989 Chicago/Detroit
+- 2009 London
+- 2012 TDD as if You Meant It
+- 2017 Munich
+- 2018 (TCR: Test Commit Revert)
+- 2019 Hamburg
+- 2019 St.Pauli
+- 2023 Portland (Nullables)
+- 2024 AI-Driven
 
 ----
 
@@ -276,6 +275,8 @@ Note:
 wer hat gewonnen?
 
 ----
+
+<!-- .slide: data-background="images/ma1_g.jpg"   -->
 
 > It depends™
 
@@ -637,13 +638,60 @@ see show notes
 - Feels slow to start<!-- .element:  style="color: red" -->
 
 ---
-<!-- .slide: data-background="images/mirror.jpg"  --> <!-- .element: style="position: relative; left: 250px" -->
-# Retro
+
+<!-- .slide: data-background="images/portland.jpg"  -->
+
+## Portland <!-- .element: style="position: absolute; top: 480px; left: -150px" -->
 
 ---
 
-<!-- .slide: data-background="images/ccstand.png"  -->
+<!-- .slide: data-background="images/portland_g.jpg"  -->
+<img src="images/james.png"  width="400px"/>
+## James Shore
 
+---
+
+<!-- .slide: data-background="images/portland_g.jpg"  -->
+
+## Motivation
+
+Avoid Mocks (even for I/O)
+
+---
+
+<!-- .slide: data-background="images/portland_g.jpg"  -->
+
+## Patterns & Principles
+
+- Testing With Nullables
+- Testing Without Mocks: A Pattern Language
+[&rightarrow;Link](https://www.jamesshore.com/v2/projects/nullables/testing-without-mocks)
+- Sociable Tests
+
+---
+
+## Sociable vs Solitary
+
+<img src="images/isolate.png">
+<sub>(*) from M. Fowler/ J. Fields</sub>
+
+
+---
+
+<!-- .slide: data-background="images/portland_g.jpg"  -->
+
+## Portland
+
+- Sociable Tests
+- Avoid Test-Doubles/Mocks
+- No integration tests needed <!-- .element:  style="color: #4dff4dbd" -->
+- Nullables in Production <!-- .element:  style="color: red" -->
+
+
+
+---
+<!-- .slide: data-background="images/mirror.jpg"  --> <!-- .element: style="position: relative; left: 250px" -->
+# Retro
 
 ---
 
