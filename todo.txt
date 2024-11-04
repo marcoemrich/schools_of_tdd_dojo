@@ -4,6 +4,7 @@ TODO
   * Setup-Hinweis
   * Github Account einrichten
  * Sebastian: Anleitung/Vorbereitung "von Github-Account zu Github-Copilot"
+ * Link Portland resources
  * Marco: Add LinkedIn?
 
 DONE

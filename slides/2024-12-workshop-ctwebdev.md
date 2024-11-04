@@ -769,7 +769,9 @@ Sebastian Rose (LinkedIn)
 
 ## References: Portland
 
-https://www.jamesshore.com/v2/projects/nullables/testing-without-mocks
+* Overview: https://www.jamesshore.com/v2/projects/nullables
+* Article: https://www.jamesshore.com/v2/projects/nullables/testing-without-mocks
+* Course: https://www.jamesshore.com/v2/courses/testing-without-mocks
 
 ----
 
