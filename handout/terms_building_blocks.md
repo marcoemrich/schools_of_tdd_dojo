@@ -1,4 +1,4 @@
-# Die sieben Schulen der TDD - Terms and Building Blocks
+# Schools of TDD - Terms and Building Blocks
 
 In alphabetic order, because we want to easily find each entry when mentioned.
 
@@ -103,7 +103,7 @@ To guard this functionality explicitly, a designated test can be introduced.
 This test created afterwards is called a validation test.
 
 ----
-[^1]: https://martinfowler.com/bliki/TestDouble.html 
+[^1]: https://martinfowler.com/bliki/TestDouble.html
 [^2]: https://www.sammancoaching.org/learning_hours/bdd/double_loop_tdd.html
 [^3]: https://arialdomartini.wordpress.com/2012/07/20/you-wont-believe-how-old-tdd-is
 [^4]: https://martinfowler.com/bliki/UnitTest.html

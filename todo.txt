@@ -1,9 +1,13 @@
 TODO
- * Loesung fur AI-TDD_Setup
- * Check QR-Codes / Handsouts
- * Java-Starter
- * Add LinkedIn?
+ * Sebastian: Check QR-Codes für Handouts erneuern
+ * Marco: Mail formulieren für Teilnehmer
+  * Setup-Hinweis
+  * Github Account einrichten
+ * Sebastian: Anleitung/Vorbereitung "von Github-Account zu Github-Copilot"
+ * Marco: Add LinkedIn?
 
 DONE
  * Portland
+ * Java-Starter
  * TS-Starter
+ * Loesung fur AI-TDD_Setup: Vorab-Mail & AI-Proxies (Goetz)

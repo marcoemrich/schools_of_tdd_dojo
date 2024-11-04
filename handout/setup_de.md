@@ -1,4 +1,4 @@
-# Setup: Die sieben Schulen der TDD
+# Setup
 
 Bitte erstellt Euch ein lokales Setup, mit dem ihr während des gesamten Workshops arbeiten könnt.
 Ihr könnt eine Programmiersprache und ein Tool Eurer Wahl mitbringen.
