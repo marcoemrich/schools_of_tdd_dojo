@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "reveal-md 2024-12-workshop-ctwebdev.md -w --template reveal.html --theme sky"
+    "start": "reveal-md 2025-04-02-javaland.md -w --template reveal.html --theme sky"
   },
   "keywords": [],
   "author": "",
