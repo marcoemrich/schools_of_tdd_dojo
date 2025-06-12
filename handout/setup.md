@@ -1,4 +1,4 @@
-# Setup: Seven schools of TDD
+# Setup: Schools of TDD
 
 Please create a local setup that you can work with during the entire workshop.
 You can bring a programming language and a tool of your choice.
@@ -14,7 +14,7 @@ Regardless of the kata and the course of the dojo, create a starting point that 
 - Functions in the IDE: build project, test, debug are ready for use
 
 ### Java
-* Java (>= 17)
+* Java (>= 21)
 * maven (>= 3.8)
 * https://github.com/srose/kata-starter-java
 * mvn clean verify

@@ -1,0 +1,62 @@
+
+___
+welcome/intro?
+    -- Today...
+    -- Sebastian erzählt über den Ansatz
+    -- Paare finden (Wechselhinweis für den Rest des Tages- noch überlegen)
+    --- Frage: Wer hat praktische Erfahrung mit TDD? -> In einer Reihe aufstellen und in der mitte falten)
+    -- Organisatorisches / Zeitplan klären
+
+___
+
+Wer hat praktische Erfahrung mit TDD? (hier wieviel, wie tief muss das intro sein?)
+intro test driven development
+
+
+___
+setup (10+5 min max)
+    --jvm: java
+    --typescript: ...
+    --eingerichtete Entwicklungsumgebung mit allen herstellen
+    --Cyberdojo als Backup
+    --Pair: handover?
+
+___
+kata(s): sauber getrennt "klar" machen/einführen
+
+ * Mars Rover einführen (für alle Schulen, auch wenn nicht immer ideal)
+
+____
+Schulen
+
+- chicago classic
+- chicago modern
+- london
+- st. pauli
+- munich
+- hamburg
+- tdd as if you meant it
+- portland
+
+a) je die Knackpunkte in der Schule mit Vorführen/Nachmachen
+b) mehrere Iterationen
+c) immer bei 0 anfangen, weil einarbeiten?
+d) wie kriegt man den Einstieg hin?
+
+----
+Zeitablauf
+
+09:00-09:15 Willkommen/Vorstellungsrunde/Erwartungen
+09:15-10:15 Intro & Ersten Schule (Chicago classic + Chicago modern)
+10:15-11:00 Selber machen & Pause
+11:00-11:15 Nächste: London + St. Pauli
+11:15-12:00 Selber machen
+12:00-13:00 Mittagspause
+13:00-13:20 Impuls + Nächste: Munich + Hamburg
+13:20-14:15 Selber machen & Pause
+14:15-14:35 Nächste: TDD as if + Portland
+14:35-15:30 Selber machen & Pause
+15:30-16:00 Abschluss-Runde/Retro
+
+
+

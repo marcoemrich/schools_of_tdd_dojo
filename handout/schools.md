@@ -50,7 +50,7 @@ Motivation: Feedback-Driven Design
 * Refactor to Structure
 
 ## Portland
-Motivation: Testing without Mocks
+Motivation: Testing without Mocks, no extra e2e integration tests
 * Inside-Out
 * No Mocks for outside dependencies
 * Overlapping Sociable Tests
