@@ -46,17 +46,19 @@ d) wie kriegt man den Einstieg hin?
 ----
 Zeitablauf
 
-09:00-09:15 Willkommen/Vorstellungsrunde/Erwartungen
-09:15-10:15 Intro & Ersten Schule (Chicago classic + Chicago modern)
-10:15-11:00 Selber machen & Pause
-11:00-11:15 Nächste: London + St. Pauli
-11:15-12:00 Selber machen
-12:00-13:00 Mittagspause
-13:00-13:20 Impuls + Nächste: Munich + Hamburg
-13:20-14:15 Selber machen & Pause
-14:15-14:35 Nächste: TDD as if + Portland
-14:35-15:30 Selber machen & Pause
-15:30-16:00 Abschluss-Runde/Retro
+Uhrzeit	Programmpunkt	Dauer
+09:00–09:15	Willkommen - 15 Min
+09:15–09:30	Motivation - 15 Min
+09:30–09:50	Einführung: Chicago Classic & Modern - 20 Min
+09:50–10:45	Praktische Übung & Pause - 55 Min
+10:45–11:05	Einführung: London & St. Pauli - 20 Min
+11:05–12:00	Praktische Übung - 55 Min
+12:00–13:00	Mittagspause - 60 Min
+13:00–13:20	Impuls & Einführung: TDD as if + Hamburg - 20 Min
+13:20–14:15	Praktische Übung & Pause - 55 Min
+14:15–14:35	Einführung: Munich & Portland - 20 Min
+14:35–15:30	Praktische Übung & Pause - 55 Min
+15:30–16:00	Abschlussrunde & Retrospektive - 30 Min
 
 
 

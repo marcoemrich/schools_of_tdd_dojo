@@ -103,7 +103,17 @@ To guard this functionality explicitly, a designated test can be introduced.
 This test created afterwards is called a validation test.
 
 ## Nullables
+Nullables are production code with an “Off” switch. 
+At first glance, they look like test doubles, but they are actually real production implementations that can deactivate their external communication. 
+Unlike mocks or stubs, nullables are not just written for tests, but are fully-fledged production code with real use cases. 
+They make it possible to test complete dependency chains without having to rely on external systems such as databases, APIs or file systems. 
+The core principle: “Real code that can turn off its side effects.”
 
+## Output Tracking
+Explain?
+
+## Parameterless Instantiation
+Explain?
 
 ----
 [^1]: https://martinfowler.com/bliki/TestDouble.html

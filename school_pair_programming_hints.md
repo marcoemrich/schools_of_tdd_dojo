@@ -20,6 +20,8 @@ Step 5: Introduce RoverTest and Start
 
 # Chicago Modern
 
+Motivation: Decoupling, Maintenance
+
 Step 0: Use branch: chicago_modern_start and describe the situation
 -> Heading class, Rover class and CardinalDirectionEnum
 -> Show problem through coverage: everything is tested together
@@ -36,7 +38,7 @@ Motivation: Outside In, YAGNI, Mocks
 
 Step 0: Start with a business test from an outer perspective
 
-Step 1: Create all necessary items with smallest possible content
+Step 1: Create all necessary items with the smallest possible content
 
 Step 2: Add more Tests for specific aspects
 
@@ -58,7 +60,7 @@ Motivation: Outside-In without Mocks
 
 Step 0: Start with a complex business test from an outer perspective
 
-Step 1: Green with simplest possible effort
+Step 1: Green with the simplest possible effort
 
 Step 2: Introduce backwards "naive" logic steps from command FRLFB -> use methods right, left in getHeading
 
@@ -76,6 +78,17 @@ Motivation: Feedback-Driven Design
 
 # Portland
 
-Motivation: Testing without Mocks, Infrastructure, no extra e2e integration tests
+Motivation: Testing without Mocks, Explicitly "nullable" or "controllable" infrastructure, no extra e2e integration tests
 
-Imagine the rovers design with infrastructure and core-domain.
+Step 0: Show a simple rover implementation, that can turn
+
+Step 1: Requirement: Telemetry, add TelementryData and a nasty CommunicationSystem to send the Telemetry data. NO TEST, because its infrastructure and covery low.
+
+Step 2: Create a Test for the CommunicationSystem to send telemetry: ObservableOutput
+-> observe payload instead of data?
+
+Step 3: Isolate the "problem" piece in an interface: SMCDPClient
+-> observe payload instead of data?
+
+Step 4: Introduce CreateNull und TelemetryTest
+-> observe payload instead of data?
