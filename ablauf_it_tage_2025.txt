@@ -4,7 +4,7 @@ welcome/intro?
     -- Today...
     -- Sebastian erzählt über den Ansatz
     -- Paare finden (Wechselhinweis für den Rest des Tages- noch überlegen)
-    --- Frage: Wer hat praktische Erfahrung mit TDD? -> In einer Reihe aufstellen und in der mitte falten)
+    --- Frage: Wer hat praktische Erfahrung mit TDD? -> Info auf dem Miro-Namenszettel eintragen)
     -- Organisatorisches / Zeitplan klären
 
 ___

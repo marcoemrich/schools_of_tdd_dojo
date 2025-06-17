@@ -643,7 +643,7 @@ see show notes
 
 ## Portland <!-- .element: style="position: absolute; top: 480px; left: -150px" -->
 
----
+----
 
 <!-- .slide: data-background="images/portland_g.jpg"  -->
 <img src="images/james.png"  width="400px"/>
@@ -689,11 +689,11 @@ Avoid Mocks (even for I/O)
 
 
 
-----
+---
 <!-- .slide: data-background="images/mirror.jpg"  --> <!-- .element: style="position: relative; left: 250px" -->
 # Retro
 
-----
+---
 
 # THX
 
@@ -707,7 +707,7 @@ Sebastian Rose (LinkedIn)
 
 <img src="images/barcode_final.png" style="height: 400px" />
 
-----
+---
 
 ## References: General
 

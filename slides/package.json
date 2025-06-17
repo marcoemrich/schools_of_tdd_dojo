@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "reveal-md 2025-06-workshop-it-themen-tage.md -w --template reveal.html --theme sky"
+    "start": "reveal-md 2025-06-workshop-it-themen-tage.md -w --template reveal.html --theme sky",
+    "pdf": "decktape --chrome-path=/usr/bin/google-chrome-stable -p 50 --load-pause 50 reveal http://localhost:1948/2025-06-workshop-it-themen-tage.md schools_of_tdd_big.pdf",
+    "shrink": "shrinkpdf.sh schools_of_tdd_big.pdf schools_of_tdd.pdf"
   },
   "keywords": [],
   "author": "",
