@@ -50,13 +50,17 @@ Step 4: Verify found parts via additional tests
 
 Motivation: Simple Starter, Outside In, No Mocks
 
-Step 0: Start with a (simpler) business test from an outer perspective
+Step 0: Start with a (simpler, more specific) business test from an outer perspective
 
-Step 1: 
+Step 1: Implement whats needed, add another business test
+
+Step 2: Implement whats needed, add another business test
+
+Step 3: TODO, Marco?
 
 # Munich
 
-Motivation: Outside-In without Mocks
+Motivation: Outside-In, No Mocks, strong YAGNI and everything Backward
 
 Step 0: Start with a complex business test from an outer perspective
 
@@ -70,7 +74,7 @@ Step 3: Backwards to commands -> instead of call to methods, use command array i
 
 # Hamburg
 
-just think a lot before coding ;)
+Motivation: Don't follow any schools. Just think a lot before coding ;), Choose the right thing todo...
  
 # TDD as if you meant it
 
@@ -78,17 +82,17 @@ Motivation: Feedback-Driven Design
 
 # Portland
 
-Motivation: Testing without Mocks, Explicitly "nullable" or "controllable" infrastructure, no extra e2e integration tests
+Motivation: Overlapping sociable testing without Mocks: no integration tests, Explicitly "nullable" or "controllable" infrastructure
 
 Step 0: Show a simple rover implementation, that can turn
 
 Step 1: Requirement: Telemetry, add TelementryData and a nasty CommunicationSystem to send the Telemetry data. NO TEST, because its infrastructure and covery low.
+- What would Mocking do? It would cover breaking things 
 
 Step 2: Create a Test for the CommunicationSystem to send telemetry: ObservableOutput
--> observe payload instead of data?
+- Observe payload instead of data? -> No implementation detail.
 
 Step 3: Isolate the "problem" piece in an interface: SMCDPClient
--> observe payload instead of data?
 
-Step 4: Introduce CreateNull und TelemetryTest
--> observe payload instead of data?
+Step 4: Introduce CreateNull und RoverTelemetryTest
+- Think of RoverTest with Rover.create(CommunicationSystem.createNull())
